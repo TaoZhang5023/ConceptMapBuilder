@@ -1,0 +1,909 @@
+===========original text===========
+For loop
+
+In computer science, a for-loop (or simply for loop) is a control flow statement for specifying iteration, which allows code to be executed repeatedly. The syntax of a for-loop is based on the heritage of the language and the prior programming languages it borrowed from, so programming languages that are descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator, e.g., descendants of ALGOL use "for", while descendants of Fortran use "do." There are other possibilities, for example COBOL which uses "PERFORM VARYING".
+
+Unlike many other kinds of loops, such as the while-loop, the for-loop is often distinguished by an explicit loop counter or loop variable. This allows the body of the for-loop (the code that is being repeatedly executed) to know about the sequencing of each iteration. For-loops are also typically used when the number of iterations is known before entering the loop. For-loops are the shorthand way to make loops when the number of iterations is known, as every for-loop could be written as a while-loop.
+
+The name for-loop comes from the English word for, which is used as the keyword in most programming languages to introduce a for-loop. The term in English dates to ALGOL 58 and was popularized in the influential later ALGOL 60; it is the direct translation of the earlier German für, used in Superplan (1949–1951) by Heinz Rutishauser, who also was involved in defining ALGOL 58 and ALGOL 60. The loop body is executed "for" the given values of the loop variable, though this is more explicit in the ALGOL version of the statement, in which a list of possible values and/or increments can be specified.
+
+In FORTRAN and PL/I though, the keyword DO is used and it is called a do-loop, but it is otherwise identical to the for-loop described here and is not to be confused with the do-while loop.
+===========Pos and Ner tag===========
+word		pos		ne
+For		IN		O
+loop		NN		O
+In		IN		O
+computer		NN		O
+science		NN		O
+,		,		O
+a		DT		O
+for-loop		NN		O
+-LRB-		-LRB-		O
+or		CC		O
+simply		RB		O
+for		IN		O
+loop		NN		O
+-RRB-		-RRB-		O
+is		VBZ		O
+a		DT		O
+control		NN		O
+flow		NN		O
+statement		NN		O
+for		IN		O
+specifying		VBG		O
+iteration		NN		O
+,		,		O
+which		WDT		O
+allows		VBZ		O
+code		NN		O
+to		TO		O
+be		VB		O
+executed		VBN		O
+repeatedly		RB		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN loop)))
+    (PP (IN In)
+      (NP (NN computer) (NN science)))
+    (, ,)
+    (NP
+      (NP (DT a) (NN for-loop))
+      (PRN (-LRB- -LRB-)
+        (CC or)
+        (ADJP (RB simply)
+          (PP (IN for)
+            (NP (NN loop))))
+        (-RRB- -RRB-)))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN control) (NN flow) (NN statement))
+        (PP (IN for)
+          (S
+            (VP (VBG specifying)
+              (NP
+                (NP (NN iteration))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ allows)
+                      (NP (NN code))
+                      (S
+                        (VP (TO to)
+                          (VP (VB be)
+                            (VP (VBN executed)
+                              (ADVP (RB repeatedly)))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[statement nmod:for>[loop case>For] nmod:in>[science case>In compound>computer] punct>, nsubj>[for-loop det>a dep>[simply punct>-LRB- cc>or nmod:for>[loop case>for] punct>-RRB-]] cop>is det>a compound>control compound>flow acl>[specifying mark>for dobj>[iteration punct>, acl:relcl>[allows nsubj>which dobj>code xcomp>[executed mark>to auxpass>be advmod>repeatedly]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+The		DT		O
+syntax		NN		O
+of		IN		O
+a		DT		O
+for-loop		NN		O
+is		VBZ		O
+based		VBN		O
+on		IN		O
+the		DT		O
+heritage		NN		O
+of		IN		O
+the		DT		O
+language		NN		O
+and		CC		O
+the		DT		O
+prior		JJ		O
+programming		NN		O
+languages		NNS		O
+it		PRP		O
+borrowed		VBD		O
+from		IN		O
+,		,		O
+so		IN		O
+programming		NN		O
+languages		NNS		O
+that		WDT		O
+are		VBP		O
+descendants		NNS		O
+of		IN		O
+or		CC		O
+offshoots		NNS		O
+of		IN		O
+a		DT		O
+language		NN		O
+that		WDT		O
+originally		RB		O
+provided		VBD		O
+an		DT		O
+iterator		NN		O
+will		MD		O
+often		RB		O
+use		VB		O
+the		DT		O
+same		JJ		O
+keyword		NN		O
+to		TO		O
+name		VB		O
+an		DT		O
+iterator		NN		O
+,		,		O
+e.g.		FW		O
+,		,		O
+descendants		NNS		O
+of		IN		O
+ALGOL		NNP		ORGANIZATION
+use		VBP		O
+``		``		O
+for		IN		O
+''		''		O
+,		,		O
+while		IN		O
+descendants		NNS		O
+of		IN		O
+Fortran		NNP		O
+use		VBP		O
+``		``		O
+do		VBP		O
+.		.		O
+''		''		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN syntax))
+        (PP (IN of)
+          (NP (DT a) (NN for-loop))))
+      (VP (VBZ is)
+        (VP (VBN based)
+          (PP (IN on)
+            (NP
+              (NP (DT the) (NN heritage))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NN language))
+                  (CC and)
+                  (NP (DT the) (JJ prior) (NN programming) (NNS languages)))))))))
+    (PRN
+      (S
+        (NP (PRP it))
+        (VP (VBD borrowed)
+          (PP (IN from))))
+      (, ,))
+    (IN so)
+    (S
+      (NP
+        (NP (NN programming) (NNS languages))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP are)
+              (NP
+                (NP
+                  (NP (NNS descendants))
+                  (PP (IN of)))
+                (CC or)
+                (NP
+                  (NP (NNS offshoots))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN language))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (ADVP (RB originally))
+                          (VP (VBD provided)
+                            (SBAR
+                              (S
+                                (NP (DT an) (NN iterator))
+                                (VP (MD will)
+                                  (ADVP (RB often))
+                                  (VP (VB use)
+                                    (NP (DT the) (JJ same) (NN keyword)
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB name)
+                                            (NP
+                                              (NP
+                                                (NP (DT an) (NN iterator))
+                                                (, ,)
+                                                (NP (FW e.g.))
+                                                (, ,))
+                                              (SBAR
+                                                (S
+                                                  (NP
+                                                    (NP (NNS descendants))
+                                                    (PP (IN of)
+                                                      (NP (NNP ALGOL))))
+                                                  (VP (VBP use)))))
+                                            (`` ``)
+                                            (PP (IN for))
+                                            ('' '')))))
+                                    (, ,)
+                                    (SBAR (IN while)
+                                      (S
+                                        (NP
+                                          (NP (NNS descendants))
+                                          (PP (IN of)
+                                            (NP (NNP Fortran))))
+                                        (VP (VBP use)))))))))))))))))))
+      (`` ``)
+      (VP (VBP do)))
+    (. .) ('' '')))
+
+===========result of graph===========
+[based nsubjpass>[syntax det>The nmod:of>[for-loop case>of det>a]] auxpass>is nmod:on>[heritage case>on det>the nmod:of>[language case>of det>the cc>and conj:and>[languages det>the amod>prior compound>programming]] nmod:of>languages] dep>[borrowed nsubj>it nmod>from punct>,] dep>so parataxis>[do nsubj>[languages compound>programming acl:relcl>[descendants nsubj>that cop>are acl>of cc>or conj:or>[offshoots nmod:of>[language case>of det>a acl:relcl>[provided nsubj>that advmod>originally ccomp>[use nsubj>[iterator det>an] aux>will advmod>often dobj>[keyword det>the amod>same acl>[name mark>to dobj>[iterator det>an punct>, appos>e.g. punct>, acl:relcl>[use nsubj>[descendants nmod:of>[ALGOL case>of]]]] punct>`` nmod>for punct>'']] punct>, advcl>[use mark>while nsubj>[descendants nmod:of>[Fortran case>of]]]]]]]] acl:relcl>offshoots] punct>``] punct>. punct>'']
+===========Pos and Ner tag===========
+word		pos		ne
+There		EX		O
+are		VBP		O
+other		JJ		O
+possibilities		NNS		O
+,		,		O
+for		IN		O
+example		NN		O
+COBOL		NNP		O
+which		WDT		O
+uses		VBZ		O
+``		``		O
+PERFORM		NNP		O
+VARYING		NNP		O
+''		''		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP (JJ other) (NNS possibilities))
+      (, ,)
+      (PP (IN for)
+        (NP
+          (NP (NN example) (NNP COBOL))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ uses)
+                (S (`` ``)
+                  (NP (NNP PERFORM) (NNP VARYING))
+                  ('' ''))))))))
+    (. .)))
+
+===========result of graph===========
+[are expl>There nsubj>[possibilities amod>other] punct>, nmod:for>[COBOL case>for compound>example acl:relcl>[uses nsubj>which xcomp>[VARYING punct>`` compound>PERFORM punct>'']]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Unlike		IN		O
+many		JJ		O
+other		JJ		O
+kinds		NNS		O
+of		IN		O
+loops		NNS		O
+,		,		O
+such		JJ		O
+as		IN		O
+the		DT		O
+while-loop		NN		O
+,		,		O
+the		DT		O
+for-loop		NN		O
+is		VBZ		O
+often		RB		O
+distinguished		VBN		O
+by		IN		O
+an		DT		O
+explicit		JJ		O
+loop		NN		O
+counter		NN		O
+or		CC		O
+loop		NN		O
+variable		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN Unlike)
+      (NP
+        (NP (JJ many) (JJ other) (NNS kinds))
+        (PP (IN of)
+          (NP (NNS loops)))
+        (, ,)
+        (PP (JJ such) (IN as)
+          (NP (DT the) (NN while-loop)))))
+    (, ,)
+    (NP (DT the) (NN for-loop))
+    (VP (VBZ is)
+      (ADVP (RB often))
+      (VP (VBN distinguished)
+        (PP (IN by)
+          (NP (DT an) (JJ explicit) (NN loop) (NN counter)
+            (CC or)
+            (NN loop) (NN variable)))))
+    (. .)))
+
+===========result of graph===========
+[distinguished nmod:unlike>[kinds case>Unlike amod>many amod>other nmod:of>[loops case>of] punct>, nmod:such_as>[while-loop case>[such mwe>as] det>the]] punct>, nsubjpass>[for-loop det>the] auxpass>is advmod>often nmod:agent>[counter case>by det>an amod>explicit compound>loop cc>or conj:or>[variable compound>loop]] nmod:agent>variable punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+This		DT		O
+allows		VBZ		O
+the		DT		O
+body		NN		O
+of		IN		O
+the		DT		O
+for-loop		JJ		O
+-LRB-		-LRB-		O
+the		DT		O
+code		NN		O
+that		WDT		O
+is		VBZ		O
+being		VBG		O
+repeatedly		RB		O
+executed		VBN		O
+-RRB-		-RRB-		O
+to		TO		O
+know		VB		O
+about		IN		O
+the		DT		O
+sequencing		NN		O
+of		IN		O
+each		DT		O
+iteration		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ allows)
+      (NP
+        (NP (DT the) (NN body))
+        (PP (IN of)
+          (NP (DT the) (JJ for-loop))))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (DT the) (NN code))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ is)
+                (VP (VBG being)
+                  (VP
+                    (ADVP (RB repeatedly))
+                    (VBN executed)))))))
+        (-RRB- -RRB-))
+      (S
+        (VP (TO to)
+          (VP (VB know)
+            (PP (IN about)
+              (NP
+                (NP (DT the) (NN sequencing))
+                (PP (IN of)
+                  (NP (DT each) (NN iteration)))))))))
+    (. .)))
+
+===========result of graph===========
+[allows nsubj>This dobj>[body det>the nmod:of>[for-loop case>of det>the]] dep>[code punct>-LRB- det>the acl:relcl>[executed nsubjpass>that aux>is auxpass>being advmod>repeatedly] punct>-RRB-] xcomp>[know mark>to nmod:about>[sequencing case>about det>the nmod:of>[iteration case>of det>each]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+For-loops		NNS		O
+are		VBP		O
+also		RB		O
+typically		RB		O
+used		VBN		O
+when		WRB		O
+the		DT		O
+number		NN		O
+of		IN		O
+iterations		NNS		O
+is		VBZ		O
+known		VBN		O
+before		IN		O
+entering		VBG		O
+the		DT		O
+loop		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNS For-loops))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (VP
+        (ADVP (RB typically))
+        (VBN used)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP
+              (NP (DT the) (NN number))
+              (PP (IN of)
+                (NP (NNS iterations))))
+            (VP (VBZ is)
+              (VP (VBN known)
+                (PP (IN before)
+                  (S
+                    (VP (VBG entering)
+                      (NP (DT the) (NN loop)))))))))))
+    (. .)))
+
+===========result of graph===========
+[used nsubjpass>For-loops auxpass>are advmod>also advmod>typically advcl>[known advmod>when nsubjpass>[number det>the nmod:of>[iterations case>of]] auxpass>is advcl>[entering mark>before dobj>[loop det>the]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+For-loops		NNS		O
+are		VBP		O
+the		DT		O
+shorthand		NN		O
+way		NN		O
+to		TO		O
+make		VB		O
+loops		NNS		O
+when		WRB		O
+the		DT		O
+number		NN		O
+of		IN		O
+iterations		NNS		O
+is		VBZ		O
+known		VBN		O
+,		,		O
+as		IN		O
+every		DT		O
+for-loop		NN		O
+could		MD		O
+be		VB		O
+written		VBN		O
+as		IN		O
+a		DT		O
+while-loop		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNS For-loops))
+    (VP (VBP are)
+      (NP (DT the) (NN shorthand) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (NNS loops))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP
+                    (NP (DT the) (NN number))
+                    (PP (IN of)
+                      (NP (NNS iterations))))
+                  (VP (VBZ is)
+                    (ADJP (VBN known))
+                    (, ,)
+                    (SBAR (IN as)
+                      (S
+                        (NP (DT every) (NN for-loop))
+                        (VP (MD could)
+                          (VP (VB be)
+                            (VP (VBN written)
+                              (PP (IN as)
+                                (NP (DT a) (NN while-loop))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[way nsubj>For-loops cop>are det>the compound>shorthand acl>[make mark>to dobj>loops advcl>[known advmod>when nsubjpass>[number det>the nmod:of>[iterations case>of]] auxpass>is punct>, advcl>[written mark>as nsubjpass>[for-loop det>every] aux>could auxpass>be nmod:as>[while-loop case>as det>a]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+The		DT		O
+name		NN		O
+for-loop		NN		O
+comes		VBZ		O
+from		IN		O
+the		DT		O
+English		NNP		MISC
+word		NN		O
+for		IN		O
+,		,		O
+which		WDT		O
+is		VBZ		O
+used		VBN		O
+as		IN		O
+the		DT		O
+keyword		NN		O
+in		IN		O
+most		JJS		O
+programming		NN		O
+languages		NNS		O
+to		TO		O
+introduce		VB		O
+a		DT		O
+for-loop		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT The) (NN name) (NN for-loop))
+    (VP (VBZ comes)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NNP English) (NN word))
+          (PP (IN for))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (VP (VBN used)
+                  (PP (IN as)
+                    (NP
+                      (NP (DT the) (NN keyword))
+                      (PP (IN in)
+                        (NP (JJS most) (NN programming) (NNS languages)))))
+                  (S
+                    (VP (TO to)
+                      (VP (VB introduce)
+                        (NP (DT a) (NN for-loop))))))))))))
+    (. .)))
+
+===========result of graph===========
+[comes nsubj>[for-loop det>The compound>name] nmod:from>[word case>from det>the compound>English acl>for punct>, acl:relcl>[used nsubjpass>which auxpass>is nmod:as>[keyword case>as det>the nmod:in>[languages case>in amod>most compound>programming]] xcomp>[introduce mark>to dobj>[for-loop det>a]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+The		DT		O
+term		NN		O
+in		IN		O
+English		NNP		MISC
+dates		NNS		O
+to		TO		O
+ALGOL		NNP		ORGANIZATION
+58		CD		NUMBER
+and		CC		O
+was		VBD		O
+popularized		VBN		O
+in		IN		O
+the		DT		O
+influential		JJ		O
+later		JJ		O
+ALGOL		NNP		ORGANIZATION
+60		CD		NUMBER
+;		:		O
+it		PRP		O
+is		VBZ		O
+the		DT		O
+direct		JJ		O
+translation		NN		O
+of		IN		O
+the		DT		O
+earlier		JJR		O
+German		JJ		MISC
+für		NN		O
+,		,		O
+used		VBN		O
+in		IN		O
+Superplan		NNP		LOCATION
+-LRB-		-LRB-		O
+1949		CD		DATE
+--		:		O
+1951		CD		DATE
+-RRB-		-RRB-		O
+by		IN		O
+Heinz		NNP		PERSON
+Rutishauser		NNP		PERSON
+,		,		O
+who		WP		O
+also		RB		O
+was		VBD		O
+involved		VBN		O
+in		IN		O
+defining		VBG		O
+ALGOL		NNP		ORGANIZATION
+58		CD		NUMBER
+and		CC		O
+ALGOL		NNP		ORGANIZATION
+60		CD		NUMBER
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN term))
+      (VP
+        (VP
+          (PP (IN in)
+            (NP (NNP English) (NNS dates)))
+          (PP (TO to)
+            (NP (NNP ALGOL) (CD 58))))
+        (CC and)
+        (VP (VBD was)
+          (VP (VBN popularized)
+            (PP (IN in)
+              (NP (DT the)
+                (ADJP (JJ influential)
+                  (NP (JJ later) (NNP ALGOL)))
+                (CD 60)))))))
+    (: ;)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ direct) (NN translation))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJR earlier) (JJ German) (NN für))
+              (, ,)
+              (VP (VBN used)
+                (PP (IN in)
+                  (NP
+                    (NP (NNP Superplan))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (CD 1949))
+                        (: --)
+                        (NP (CD 1951)))
+                      (-RRB- -RRB-))))
+                (PP (IN by)
+                  (NP
+                    (NP (NNP Heinz) (NNP Rutishauser))
+                    (, ,)
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (ADVP (RB also))
+                        (VP (VBD was)
+                          (VP (VBN involved)
+                            (PP (IN in)
+                              (S
+                                (VP (VBG defining)
+                                  (NP
+                                    (NP (NNP ALGOL) (CD 58))
+                                    (CC and)
+                                    (NP (NNP ALGOL) (CD 60))))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[dates nsubj>[term det>The] case>in compound>English nmod:to>[ALGOL case>to nummod>58] cc>and conj:and>[popularized nsubjpass>term auxpass>was nmod:in>[60 case>in det>the amod>[influential dep>[ALGOL amod>later]]]] punct>; parataxis>[translation nsubj>it cop>is det>the amod>direct nmod:of>[für case>of det>the amod>earlier amod>German punct>, acl>[used nmod:in>[Superplan case>in dep>[1949 punct>-LRB- punct>-- dep>1951 punct>-RRB-]] nmod:by>[Rutishauser case>by compound>Heinz punct>, acl:relcl>[involved nsubjpass>who advmod>also auxpass>was advcl>[defining mark>in dobj>[ALGOL nummod>58 cc>and conj:and>[ALGOL nummod>60]] dobj>ALGOL]]]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+The		DT		O
+loop		NN		O
+body		NN		O
+is		VBZ		O
+executed		VBN		O
+``		``		O
+for		IN		O
+''		''		O
+the		DT		O
+given		VBN		O
+values		NNS		O
+of		IN		O
+the		DT		O
+loop		NN		O
+variable		NN		O
+,		,		O
+though		IN		O
+this		DT		O
+is		VBZ		O
+more		RBR		O
+explicit		JJ		O
+in		IN		O
+the		DT		O
+ALGOL		NNP		O
+version		NN		O
+of		IN		O
+the		DT		O
+statement		NN		O
+,		,		O
+in		IN		O
+which		WDT		O
+a		DT		O
+list		NN		O
+of		IN		O
+possible		JJ		O
+values		NNS		O
+and/or		CC		O
+increments		NNS		O
+can		MD		O
+be		VB		O
+specified		VBN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT The) (NN loop) (NN body))
+    (VP (VBZ is)
+      (VP (VBN executed) (`` ``)
+        (PP (IN for) ('' '')
+          (NP
+            (NP (DT the) (VBN given) (NNS values))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN loop) (NN variable))
+                (, ,)
+                (SBAR (IN though)
+                  (S
+                    (NP (DT this))
+                    (VP (VBZ is)
+                      (ADJP (RBR more) (JJ explicit)
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NNP ALGOL) (NN version))
+                            (PP (IN of)
+                              (NP
+                                (NP (DT the) (NN statement))
+                                (, ,)
+                                (SBAR
+                                  (WHPP (IN in)
+                                    (WHNP (WDT which)))
+                                  (S
+                                    (NP
+                                      (NP (DT a) (NN list))
+                                      (PP (IN of)
+                                        (NP
+                                          (NP (JJ possible) (NNS values))
+                                          (CC and/or)
+                                          (NP (NNS increments)))))
+                                    (VP (MD can)
+                                      (VP (VB be)
+                                        (VP (VBN specified))))))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[executed nsubjpass>[body det>The compound>loop] auxpass>is punct>`` nmod:for>[values case>for punct>'' det>the amod>given nmod:of>[variable case>of det>the compound>loop punct>, dep>[explicit mark>though nsubj>this cop>is advmod>more nmod:in>[version case>in det>the compound>ALGOL nmod:of>[statement case>of det>the punct>, acl:relcl>[specified nmod:in>[which case>in] nsubjpass>[list det>a nmod:of>[values case>of amod>possible cc>and/or conj:and/or>increments] nmod:of>increments] aux>can auxpass>be]]]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+In		IN		O
+FORTRAN		NN		O
+and		CC		O
+PL/I		NN		O
+though		RB		O
+,		,		O
+the		DT		O
+keyword		JJ		O
+DO		NN		O
+is		VBZ		O
+used		VBN		O
+and		CC		O
+it		PRP		O
+is		VBZ		O
+called		VBN		O
+a		DT		O
+do-loop		JJ		O
+,		,		O
+but		CC		O
+it		PRP		O
+is		VBZ		O
+otherwise		RB		O
+identical		JJ		O
+to		TO		O
+the		DT		O
+for-loop		JJ		O
+described		VBN		O
+here		RB		O
+and		CC		O
+is		VBZ		O
+not		RB		O
+to		TO		O
+be		VB		O
+confused		VBN		O
+with		IN		O
+the		DT		O
+do-while		JJ		O
+loop		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (NN FORTRAN)
+          (CC and)
+          (NN PL/I)))
+      (S
+        (ADVP (RB though))
+        (, ,)
+        (NP (DT the) (JJ keyword) (NN DO))
+        (VP (VBZ is)
+          (VP (VBN used))))
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBZ is)
+          (VP (VBN called)
+            (NP (DT a) (JJ do-loop))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP
+        (VP (VBZ is)
+          (ADJP (RB otherwise) (JJ identical)
+            (PP (TO to)
+              (NP
+                (NP (DT the) (JJ for-loop))
+                (VP (VBN described)
+                  (ADVP (RB here)))))))
+        (CC and)
+        (VP (VBZ is)
+          (ADJP (RB not)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN confused)
+                    (PP (IN with)
+                      (NP (DT the) (JJ do-while) (NN loop)))))))))))
+    (. .)))
+
+===========result of graph===========
+[used nmod:in>[FORTRAN case>In cc>and conj:and>PL/I] nmod:in>PL/I advmod>though punct>, nsubjpass>[DO det>the amod>keyword] auxpass>is cc>and conj:and>[called nsubjpass>it auxpass>is dobj>[do-loop det>a]] punct>, cc>but conj:and>[identical nsubj>it cop>is advmod>otherwise nmod:to>[for-loop case>to det>the acl>[described advmod>here]] cc>and conj:and>[not cop>is xcomp>[confused mark>to auxpass>be nmod:with>[loop case>with det>the amod>do-while]]]] conj:and>not punct>.]
+===========result of map===========
+1, CHAIN1-["computer science" in sentence 1]
+2, CHAIN2-["a for-loop -LRB- or simply for loop -RRB-" in sentence 1]
+3, CHAIN3-["a control flow statement for specifying iteration , which allows code to be executed repeatedly" in sentence 1, "the statement" in sentence 10]
+4, CHAIN4-["iteration , which allows code to be executed repeatedly" in sentence 1]
+5, CHAIN5-["ALGOL" in sentence 2, "later ALGOL" in sentence 9]
+6, CHAIN6-["The syntax of a for-loop" in sentence 2, "it" in sentence 2]
+7, CHAIN7-["a for-loop" in sentence 2, "the for-loop" in sentence 4, "the for-loop" in sentence 5, "a for-loop" in sentence 8]
+8, CHAIN8-["the heritage of the language and the prior programming languages" in sentence 2]
+9, CHAIN9-["the language and the prior programming languages" in sentence 2]
+10, CHAIN10-["the language" in sentence 2]
+11, CHAIN11-["the prior programming languages" in sentence 2]
+13, CHAIN13-["programming languages that are descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
+14, CHAIN14-["descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
+15, CHAIN15-["descendants of" in sentence 2, "descendants of ALGOL" in sentence 2, "descendants of Fortran" in sentence 2]
+16, CHAIN16-["offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
+17, CHAIN17-["a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
+18, CHAIN18-["an iterator" in sentence 2, "an iterator , e.g. , descendants of ALGOL use" in sentence 2, "an iterator , e.g." in sentence 2, "an iterator" in sentence 2, "e.g." in sentence 2]
+19, CHAIN19-["the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for ''" in sentence 2]
+26, CHAIN26-["Fortran" in sentence 2]
+27, CHAIN27-["other possibilities" in sentence 3]
+28, CHAIN28-["example COBOL which uses `` PERFORM VARYING ''" in sentence 3]
+29, CHAIN29-["PERFORM VARYING" in sentence 3]
+30, CHAIN30-["many other kinds of loops , such as the while-loop" in sentence 4]
+31, CHAIN31-["loops" in sentence 4, "loops" in sentence 7]
+32, CHAIN32-["the while-loop" in sentence 4]
+34, CHAIN34-["an explicit loop counter or loop variable" in sentence 4, "the loop variable" in sentence 10]
+35, CHAIN35-["This" in sentence 5]
+36, CHAIN36-["the body of the for-loop" in sentence 5]
+38, CHAIN38-["the code that is being repeatedly executed" in sentence 5]
+39, CHAIN39-["the sequencing of each iteration" in sentence 5]
+40, CHAIN40-["each iteration" in sentence 5]
+41, CHAIN41-["For-loops" in sentence 6, "For-loops" in sentence 7]
+42, CHAIN42-["the number of iterations" in sentence 6, "the number of iterations" in sentence 7]
+43, CHAIN43-["the loop" in sentence 6]
+45, CHAIN45-["the shorthand way to make loops when the number of iterations is known , as every for-loop could be written as a while-loop" in sentence 7]
+48, CHAIN48-["a while-loop" in sentence 7]
+49, CHAIN49-["The name for-loop" in sentence 8]
+50, CHAIN50-["the English word for , which is used as the keyword in most programming languages to introduce a for-loop" in sentence 8]
+51, CHAIN51-["the keyword in most programming languages" in sentence 8]
+52, CHAIN52-["most programming languages" in sentence 8]
+54, CHAIN54-["58" in sentence 9, "58" in sentence 9]
+55, CHAIN55-["60" in sentence 9, "60" in sentence 9]
+56, CHAIN56-["Heinz Rutishauser" in sentence 9]
+59, CHAIN59-["The term" in sentence 9, "it" in sentence 9, "the direct translation of the earlier German für , used in Superplan -LRB- 1949 -- 1951 -RRB- by Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
+60, CHAIN60-["English dates" in sentence 9]
+61, CHAIN61-["ALGOL 58" in sentence 9, "ALGOL 58" in sentence 9]
+62, CHAIN62-["the influential later ALGOL 60" in sentence 9]
+66, CHAIN66-["the earlier German für , used in Superplan -LRB- 1949 -- 1951 -RRB- by Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
+67, CHAIN67-["the earlier German für" in sentence 9]
+68, CHAIN68-["Superplan -LRB- 1949 -- 1951 -RRB-" in sentence 9]
+69, CHAIN69-["1949 -- 1951" in sentence 9]
+70, CHAIN70-["1951" in sentence 9]
+71, CHAIN71-["Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
+72, CHAIN72-["ALGOL 58 and ALGOL 60" in sentence 9]
+74, CHAIN74-["ALGOL 60" in sentence 9]
+75, CHAIN75-["The loop body" in sentence 10]
+76, CHAIN76-["the given values of the loop variable , though this is more explicit in the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
+77, CHAIN77-["the loop variable , though this is more explicit in the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
+79, CHAIN79-["this" in sentence 10]
+80, CHAIN80-["the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
+81, CHAIN81-["the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
+83, CHAIN83-["a list of possible values and/or increments" in sentence 10]
+84, CHAIN84-["possible values and/or increments" in sentence 10]
+85, CHAIN85-["possible values" in sentence 10]
+86, CHAIN86-["increments" in sentence 10]
+87, CHAIN87-["FORTRAN and PL/I" in sentence 11]
+88, CHAIN88-["the keyword DO" in sentence 11, "it" in sentence 11, "it" in sentence 11]
+90, CHAIN90-["a do-loop" in sentence 11]
+92, CHAIN92-["the for-loop described here" in sentence 11]
+93, CHAIN93-["the do-while loop" in sentence 11]
