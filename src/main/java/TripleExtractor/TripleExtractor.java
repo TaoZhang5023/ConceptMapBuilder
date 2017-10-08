@@ -2,6 +2,7 @@ package TripleExtractor;
 
 import edu.stanford.nlp.trees.Tree;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.ListIterator;
 
@@ -50,10 +51,8 @@ public class TripleExtractor {
         Tree[] children = tree.children();
         for(Tree t: children){
             String value = t.value();
-            boolean isNoun = value.equals("NN") || value.equals("NNS")
-                    || value.equals("NNP") || value.equals("NNPS");
             boolean isItself = value.equals("DT");
-            if(isNoun) {
+            if(isNoun(value)) {
                 subject = t.children()[0].value();
             }else if(isItself){
                 subject = getNoun(tree);
@@ -135,6 +134,15 @@ public class TripleExtractor {
     private boolean isHave(String s){
         return s.equals("has") || s.equals("have");
     }
+
+    private boolean isNoun(String s){
+        return s.equals("NN") || s.equals("NNS")
+                || s.equals("NNP") || s.equals("NNPS");
+    }
+
+    private boolean isAdj(String s){
+        return s.equals("JJ") || s.equals("JJR") || s.equals("JJS");
+    }
     //select the first word a relation maybe
     //1. be + adv + verb
     //2. be + the past participle
@@ -142,13 +150,15 @@ public class TripleExtractor {
     //4. could / may/ should / might/ would / must  +  have + VBN
     private String relationGenerator(ArrayList<Verb> candidateRelation){
         String relation = candidateRelation.get(0).token;
-        if(isBe(candidateRelation.get(0).token) && isAdv(candidateRelation.get(1).type)
-                && isVerb(candidateRelation.get(2).type)){
-            relation += " " + candidateRelation.get(1).token + " " + candidateRelation.get(2).token;
-        }else if(isBe(candidateRelation.get(0).token) && isPast(candidateRelation.get(1).type)){
-            relation += " " + candidateRelation.get(1).token;
-        }else if(isHave(candidateRelation.get(0).token) && isPast(candidateRelation.get(1).type)){
-            relation += " " + candidateRelation.get(1).token;
+        if(candidateRelation.size()>=3){
+            if(isBe(candidateRelation.get(0).token) && isAdv(candidateRelation.get(1).type)
+                    && isVerb(candidateRelation.get(2).type)){
+                relation += " " + candidateRelation.get(1).token + " " + candidateRelation.get(2).token;
+            }else if(isBe(candidateRelation.get(0).token) && isPast(candidateRelation.get(1).type)){
+                relation += " " + candidateRelation.get(1).token;
+            }else if(isHave(candidateRelation.get(0).token) && isPast(candidateRelation.get(1).type)){
+                relation += " " + candidateRelation.get(1).token;
+            }
         }
         return relation;
     }
@@ -191,6 +201,68 @@ public class TripleExtractor {
         return relation;
     }
 
+    public String BFSForObject(Tree VPSubtree, String target){
+        String object = "";
+        if(VPSubtree.value().equals("NP") && target.equals("noun")){
+            object = BFSforNPSubTrees(VPSubtree);
+//            if(VPSubtree.children().length==1){
+//                object = VPSubtree.children()[0].children()[0].value();
+//            }else{
+//                System.out.println(VPSubtree);
+//                object = getNoun(VPSubtree);
+//            }
+//            System.out.println("isNP and noun: " + object);
+        }else{
+            Tree[] children = VPSubtree.children();
+            for(Tree t: children){
+                if(target.equals("noun")){
+                    if(isNoun(t.value())){
+                        object = t.children()[0].value();
+                        return object;
+                    }
+                }else if(target.equals("adjective")){
+                    if(isAdj(t.value())){
+                        object = t.children()[0].value();
+                        return object;
+                    }
+                }
+            }
+
+            for(Tree t: children){
+                object = BFSForObject(t, target);
+                if(!object.equals("")){
+                    return object;
+                }
+            }
+        }
+        return  object;
+    }
+
+    public String getObject(Tree VPSubtree){
+        String object = "";
+        ArrayList<Tree> toBeSearched = new ArrayList<Tree>();
+        toBeSearched.add(VPSubtree);
+        while(toBeSearched.size()>0){
+            Tree candidate = toBeSearched.get(0);
+            toBeSearched.remove(0);
+            if(candidate.value().equals("NP") || candidate.value().equals("PP")){
+                object = BFSForObject(candidate,"noun");
+            }else if(candidate.value().equals("ADJP")){
+                object = BFSForObject(candidate, "adjective");
+            }else{
+                Tree[] children = candidate.children();
+                for(Tree c: children){
+                    toBeSearched.add(c);
+                }
+            }
+        }
+        if(object.equals("")){
+            return "Need to run numeral object";
+        }
+        return object;
+    }
+
+
 
     public Triple extractTriplet(Tree sentence){
         Triple triple = new Triple();
@@ -200,7 +272,7 @@ public class TripleExtractor {
         for(Tree t : children){
             String value = t.value();
             if(value.equals("S")|| value.equals("ROOT")){
-                return extractTriplet(t);
+                extractTriplet(t);
             }else if(value.equals("NP")){
                 NPSubTrees.add(t);
             }else if(value.equals("VP")){
@@ -216,11 +288,12 @@ public class TripleExtractor {
         if(VPSubTrees.size()==0){
 
         }
+        System.out.println("=====Triple=====");
+        System.out.println("Extract Triple from Sentence: " + sentence);
         triple.subject = getSubject(NPSubTrees);
         System.out.println("subject: " + triple.subject);
         if(VPSubTrees.size()>0){
             for(Tree t:VPSubTrees){
-                System.out.println("input: " + t);
                 triple.relation = findRelation(t);
                 if(triple.relation != ""){
                     break;
@@ -228,6 +301,16 @@ public class TripleExtractor {
             }
         }
         System.out.println("verb: " + triple.relation);
+        String object = "";
+        if(VPSubTrees.size()>0){
+            for(Tree t:VPSubTrees){
+                object = getObject(t);
+                if(object != ""){
+                    break;
+                }
+            }
+        }
+        System.out.println("object: " + object);
 
         return triple;
     }

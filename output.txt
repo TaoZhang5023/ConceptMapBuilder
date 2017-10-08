@@ -1,909 +1,2808 @@
 ===========original text===========
-For loop
+Many learners with disability labels are visual learners and are best able to understand and remember content when they can see it represented in some way; in other words, they need to “see what we mean.” Three visual supports helpful for teaching and supporting literacy development are described here: picture books, graphic notes, and story kits. Some of these ideas may be effective for working with some students with disabilities and each may be used as catalyst for designing literacy lessons that are appropriate and challenging for learners in the inclusive classroom.  Picture books.  Picture books combine words and pictures to tell a story. Typically, in these texts, the pictures don’t just supplement the text; they are as important or central as the text. Picture books are often used in the early elementary grades but they can actually be incredibly effective for students in older grades including high school.  Picture books can be used as a primary text to introduce and examine an issue or as a supplementary text for all or for just some learners needing extra support. For instance, a middle school science teacher used A River Ran Wild: An Environmental History (Cherry, 1992), a story about the Nashua River of New Hampshire, to teach all learners in the class about conservation and pollution. The text includes not only a story of the river itself but also contrasting maps of New England (in the 1500s and in the 1900s) and an author’s note detailing the work of a committee who organized to clean up the Nashua.  Story kits.  For students with more significant disabilities, for those who are blind or have low vision, or for those just needing a more concrete way of relating to a piece of text, teachers might consider the use of story kits as a tool for improving literacy learning. A story kit is simply a bag or box of items related to a theme, unit, or particular story. A kit for the “Little House” books by Laura Ingalls Wilder, for instance, might contain a tin cup, a rag doll, a girl’s bonnet, a small toy fiddle, and a piece of chalk.  Story kits can help a reader generate ideas, retain information, and further their understanding of a particular idea or concept. The kit can be used to introduce or review the story, to interest and support students as they discuss certain passages or chapters, and to give them cues as they engage in other activities related to the book (e.g., writing a report). One teacher used story kits to help Jerry Joe, a student with Down syndrome, understand and remember the books studied in class. When the class read The Summer of the Swans (Byars, 1981) the teacher asked the class to participate in creating a story kit. The kit consisted of a watch, a small plastic boy and girl, some white feathers, a pair of sneakers, and a map of the Blue Ridge Mountains. It was used by Jerry Joe when he was doing a retelling of the story to his speech therapist but it was also used by other students as they engaged in activities related to the story. For instance, the teacher asked small groups of students to write “what happens next” stories detailing some event or situation that they imagined happening to the characters beyond the ending of the book. When students wrote these stories, the teacher put all of the story kit objects on a table in front of the room so students could better recall details from the book.  Teachers should also, of course, include one or two copies of the book or story in the kit. At least one copy can be adapted for particular learners with disabilities (Downing, 2005). Some students may profit from a tactile book with added textures or objects while others may need large-print versions of the text. Still others may need additional teacher or student-generated graphics if the text has few or no illustrations.  Visual notes.  Drawing or visual note taking is another strategy that learners can use and teachers can teach in order to boost the literacy learning of students with disabilities. Modeling, teaching, and encouraging this strategy is a way to demonstrate that there are many different ways to represent information while giving struggling readers a way to share their understanding of a text, tell a story, or organize information.  Students can be encouraged and taught to use visual notes in a variety of ways. One teacher simply told her students to take notes as they always had but to add “pictures, diagrams, doodles, patterns, or charts” in the margins or in the actual body of the notes to emphasize points, elaborate on an idea, or to make the content memorable. Another teacher showed a student with physical disabilities and limited mobility how to take visual notes using the computer. After reading Of Mice and Men (Steinback, 1937), the student searched the web for images of men working on ranches, a gun, rabbits in a hutch, and a farm. He then assembled these images and some simple text into a PowerPoint presentation that he shared with classmates and used to answer questions posed by his teachers.  Conclusions.  Making greater use of visual supports is just one way that effective teachers are meeting the needs of a wider range of learners. Each of these strategies can certainly be used for students without disabilities in inclusive classrooms but they may have the most impact on those learners who cannot learn effectively in classrooms using traditional tools and strategies. By expanding the strategies used in the classroom and specifically by expanding the use of visual supports in literacy instruction, teachers are sure to reach a wider range of learners and to give every student opportunities to hone their skills as writers and readers.  This article is from the website of Dr. Paula Kluth. It, along with many others on inclusive schooling, differentiated instruction, and literacy can be found at www.PaulaKluth.com. Visit now to read her Tip of the Day, read dozens of free articles, and learn more about supporting diverse learners in K-12 classrooms. 
+===========Pos and Ner tag===========
+word		pos		ne
+Many		JJ		O
+learners		NNS		O
+with		IN		O
+disability		NN		O
+labels		NNS		O
+are		VBP		O
+visual		JJ		O
+learners		NNS		O
+and		CC		O
+are		VBP		O
+best		RBS		O
+able		JJ		O
+to		TO		O
+understand		VB		O
+and		CC		O
+remember		VB		O
+content		NN		O
+when		WRB		O
+they		PRP		O
+can		MD		O
+see		VB		O
+it		PRP		O
+represented		VBN		O
+in		IN		O
+some		DT		O
+way		NN		O
+;		:		O
+in		IN		O
+other		JJ		O
+words		NNS		O
+,		,		O
+they		PRP		O
+need		VBP		O
+to		TO		O
+``		``		O
+see		VB		O
+what		WP		O
+we		PRP		O
+mean		VBP		O
+.		.		O
+''		''		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP (JJ Many) (NNS learners))
+      (VP
+        (VP
+          (PP (IN with)
+            (NP (NN disability) (NNS labels)))
+          (VBP are)
+          (NP (JJ visual) (NNS learners)))
+        (CC and)
+        (VP (VBP are)
+          (ADVP (RBS best))
+          (ADJP (JJ able)
+            (S
+              (VP (TO to)
+                (VP (VB understand)
+                  (CC and)
+                  (VB remember)
+                  (NP (NN content))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (PRP they))
+                      (VP (MD can)
+                        (VP (VB see)
+                          (S
+                            (NP (PRP it))
+                            (VP (VBN represented)
+                              (PP (IN in)
+                                (NP (DT some) (NN way))))))))))))))))
+    (: ;)
+    (S
+      (PP (IN in)
+        (NP (JJ other) (NNS words)))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBP need)
+        (S
+          (VP (TO to) (`` ``)
+            (VP (VB see)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP we))
+                  (VP (VBP mean)))))))))
+    (. .) ('' '')))
 
-In computer science, a for-loop (or simply for loop) is a control flow statement for specifying iteration, which allows code to be executed repeatedly. The syntax of a for-loop is based on the heritage of the language and the prior programming languages it borrowed from, so programming languages that are descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator, e.g., descendants of ALGOL use "for", while descendants of Fortran use "do." There are other possibilities, for example COBOL which uses "PERFORM VARYING".
+===========result of graph===========
+[learners nsubj>[learners amod>Many] nmod:with>[labels case>with compound>disability] cop>are amod>visual cc>and conj:and>[able nsubj>learners cop>are advmod>best xcomp>[understand mark>to cc>and conj:and>remember dobj>content advcl>[see advmod>when nsubj>they aux>can dep>[represented nsubj>it nmod:in>[way case>in det>some]]]] xcomp>remember] punct>; parataxis>[need nmod:in>[words case>in amod>other] punct>, nsubj>they xcomp>[see mark>to punct>`` ccomp>[mean dobj>what nsubj>we]]] punct>. punct>'']
+===========Pos and Ner tag===========
+word		pos		ne
+Three		CD		NUMBER
+visual		JJ		O
+supports		NNS		O
+helpful		JJ		O
+for		IN		O
+teaching		NN		O
+and		CC		O
+supporting		VBG		O
+literacy		NN		O
+development		NN		O
+are		VBP		O
+described		VBN		O
+here		RB		O
+:		:		O
+picture		NN		O
+books		NNS		O
+,		,		O
+graphic		JJ		O
+notes		NNS		O
+,		,		O
+and		CC		O
+story		NN		O
+kits		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (NP
+    (NP
+      (NP (CD Three) (JJ visual) (NNS supports))
+      (UCP
+        (ADJP (JJ helpful)
+          (PP (IN for)
+            (NP (NN teaching))))
+        (CC and)
+        (VP (VBG supporting)
+          (SBAR
+            (S
+              (NP (NN literacy) (NN development))
+              (VP (VBP are)
+                (VP (VBN described)
+                  (ADVP (RB here)))))))))
+    (: :)
+    (NP
+      (NP (NN picture) (NNS books))
+      (, ,)
+      (NP (JJ graphic) (NNS notes))
+      (, ,)
+      (CC and)
+      (NP (NN story) (NNS kits)))
+    (. .)))
 
-Unlike many other kinds of loops, such as the while-loop, the for-loop is often distinguished by an explicit loop counter or loop variable. This allows the body of the for-loop (the code that is being repeatedly executed) to know about the sequencing of each iteration. For-loops are also typically used when the number of iterations is known before entering the loop. For-loops are the shorthand way to make loops when the number of iterations is known, as every for-loop could be written as a while-loop.
+===========result of graph===========
+[supports nummod>Three amod>visual amod>[helpful nmod:for>[teaching case>for] cc>and conj:and>[supporting ccomp>[described nsubjpass>[development compound>literacy] auxpass>are advmod>here]]] amod>supporting punct>: dep>[books compound>picture punct>, conj:and>[notes amod>graphic] punct>, cc>and conj:and>[kits compound>story]] dep>notes dep>kits punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Some		DT		O
+of		IN		O
+these		DT		O
+ideas		NNS		O
+may		MD		O
+be		VB		O
+effective		JJ		O
+for		IN		O
+working		VBG		O
+with		IN		O
+some		DT		O
+students		NNS		O
+with		IN		O
+disabilities		NNS		O
+and		CC		O
+each		DT		SET
+may		MD		SET
+be		VB		O
+used		VBN		O
+as		IN		O
+catalyst		NN		O
+for		IN		O
+designing		VBG		O
+literacy		NN		O
+lessons		NNS		O
+that		WDT		O
+are		VBP		O
+appropriate		JJ		O
+and		CC		O
+challenging		JJ		O
+for		IN		O
+learners		NNS		O
+in		IN		O
+the		DT		O
+inclusive		JJ		O
+classroom		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT Some))
+        (PP (IN of)
+          (NP (DT these) (NNS ideas))))
+      (VP (MD may)
+        (VP (VB be)
+          (ADJP (JJ effective)
+            (PP (IN for)
+              (S
+                (VP (VBG working)
+                  (PP (IN with)
+                    (NP
+                      (NP (DT some) (NNS students))
+                      (PP (IN with)
+                        (NP (NNS disabilities))))))))))))
+    (CC and)
+    (S
+      (NP (DT each))
+      (VP (MD may)
+        (VP (VB be)
+          (VP
+            (VP (VBN used)
+              (PP (IN as)
+                (NP (NN catalyst)))
+              (PP (IN for)
+                (S
+                  (VP (VBG designing)
+                    (NP
+                      (NP (NN literacy) (NNS lessons))
+                      (SBAR
+                        (WHNP (WDT that))
+                        (S
+                          (VP (VBP are)
+                            (ADJP (JJ appropriate))))))))))
+            (CC and)
+            (VP (JJ challenging)
+              (PP (IN for)
+                (NP
+                  (NP (NNS learners))
+                  (PP (IN in)
+                    (NP (DT the) (JJ inclusive) (NN classroom))))))))))
+    (. .)))
 
-The name for-loop comes from the English word for, which is used as the keyword in most programming languages to introduce a for-loop. The term in English dates to ALGOL 58 and was popularized in the influential later ALGOL 60; it is the direct translation of the earlier German für, used in Superplan (1949–1951) by Heinz Rutishauser, who also was involved in defining ALGOL 58 and ALGOL 60. The loop body is executed "for" the given values of the loop variable, though this is more explicit in the ALGOL version of the statement, in which a list of possible values and/or increments can be specified.
+===========result of graph===========
+[effective nsubj>[Some nmod:of>[ideas case>of det>these]] aux>may cop>be advcl>[working mark>for nmod:with>[students case>with det>some nmod:with>[disabilities case>with]]] cc>and conj:and>[used nsubjpass>each aux>may auxpass>be nmod:as>[catalyst case>as] advcl>[designing mark>for dobj>[lessons compound>literacy acl:relcl>[appropriate nsubj>that cop>are]]] cc>and conj:and>[challenging nsubj>each nmod:for>[learners case>for nmod:in>[classroom case>in det>the amod>inclusive]]]] conj:and>challenging punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Picture		NNP		O
+books		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (NP
+    (NP (NNP Picture))
+    (NP (NNS books))
+    (. .)))
 
-In FORTRAN and PL/I though, the keyword DO is used and it is called a do-loop, but it is otherwise identical to the for-loop described here and is not to be confused with the do-while loop.
+===========result of graph===========
+[Picture dep>books punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Picture		NNP		O
+books		NNS		O
+combine		VBP		O
+words		NNS		O
+and		CC		O
+pictures		NNS		O
+to		TO		O
+tell		VB		O
+a		DT		O
+story		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNP Picture) (NNS books))
+    (VP (VBP combine)
+      (S
+        (NP (NNS words)
+          (CC and)
+          (NNS pictures))
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (DT a) (NN story))))))
+    (. .)))
+
+===========result of graph===========
+[combine nsubj>[books compound>Picture] dobj>[words cc>and conj:and>pictures] dobj>pictures xcomp>[tell mark>to dobj>[story det>a]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Typically		RB		O
+,		,		O
+in		IN		O
+these		DT		O
+texts		NNS		O
+,		,		O
+the		DT		O
+pictures		NNS		O
+do		VBP		O
+n't		RB		O
+just		RB		O
+supplement		VB		O
+the		DT		O
+text		NN		O
+;		:		O
+they		PRP		O
+are		VBP		O
+as		RB		O
+important		JJ		O
+or		CC		O
+central		JJ		O
+as		IN		O
+the		DT		O
+text		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (ADVP (RB Typically))
+    (, ,)
+    (S
+      (PP (IN in)
+        (NP (DT these) (NNS texts)))
+      (, ,)
+      (NP (DT the) (NNS pictures))
+      (VP (VBP do) (RB n't)
+        (ADVP (RB just))
+        (VP (VB supplement)
+          (NP (DT the) (NN text)))))
+    (: ;)
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (ADJP
+          (ADJP (RB as) (JJ important)
+            (CC or)
+            (JJ central))
+          (PP (IN as)
+            (NP (DT the) (NN text))))))
+    (. .)))
+
+===========result of graph===========
+[supplement advmod>Typically punct>, nmod:in>[texts case>in det>these] punct>, nsubj>[pictures det>the] aux>do neg>n't advmod>just dobj>[text det>the] punct>; parataxis>[important nsubj>they cop>are advmod>as cc>or conj:or>[central nsubj>they] nmod:as>[text case>as det>the]] parataxis>central punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Picture		NNP		O
+books		NNS		O
+are		VBP		O
+often		RB		O
+used		VBN		O
+in		IN		O
+the		DT		O
+early		JJ		O
+elementary		JJ		O
+grades		NNS		O
+but		CC		O
+they		PRP		O
+can		MD		O
+actually		RB		O
+be		VB		O
+incredibly		RB		O
+effective		JJ		O
+for		IN		O
+students		NNS		O
+in		IN		O
+older		JJR		O
+grades		NNS		O
+including		VBG		O
+high		JJ		O
+school		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP (NNP Picture) (NNS books))
+      (VP (VBP are)
+        (ADVP (RB often))
+        (VP (VBN used)
+          (PP (IN in)
+            (NP (DT the) (JJ early) (JJ elementary) (NNS grades))))))
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (MD can)
+        (ADVP (RB actually))
+        (VP (VB be)
+          (ADJP (RB incredibly) (JJ effective)
+            (PP (IN for)
+              (NP
+                (NP (NNS students))
+                (PP (IN in)
+                  (NP
+                    (NP (JJR older) (NNS grades))
+                    (PP (VBG including)
+                      (NP (JJ high) (NN school)))))))))))
+    (. .)))
+
+===========result of graph===========
+[used nsubjpass>[books compound>Picture] auxpass>are advmod>often nmod:in>[grades case>in det>the amod>early amod>elementary] cc>but conj:but>[effective nsubj>they aux>can advmod>actually cop>be advmod>incredibly nmod:for>[students case>for nmod:in>[grades case>in amod>older nmod:including>[school case>including amod>high]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Picture		NNP		O
+books		NNS		O
+can		MD		O
+be		VB		O
+used		VBN		O
+as		IN		O
+a		DT		O
+primary		JJ		O
+text		NN		O
+to		TO		O
+introduce		VB		O
+and		CC		O
+examine		VB		O
+an		DT		O
+issue		NN		O
+or		CC		O
+as		IN		O
+a		DT		O
+supplementary		JJ		O
+text		NN		O
+for		IN		O
+all		DT		O
+or		CC		O
+for		IN		O
+just		RB		O
+some		DT		O
+learners		NNS		O
+needing		VBG		O
+extra		JJ		O
+support		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNP Picture) (NNS books))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN used)
+          (PP
+            (PP (IN as)
+              (NP (DT a) (JJ primary) (NN text)
+                (S
+                  (VP (TO to)
+                    (VP (VB introduce)
+                      (CC and)
+                      (VB examine)
+                      (NP (DT an) (NN issue)))))))
+            (CC or)
+            (PP (IN as)
+              (NP
+                (NP (DT a) (JJ supplementary) (NN text))
+                (PP
+                  (PP (IN for)
+                    (NP (DT all)))
+                  (CC or)
+                  (PP (IN for)
+                    (NP
+                      (NP (RB just) (DT some) (NNS learners))
+                      (VP (VBG needing)
+                        (NP (JJ extra) (NN support))))))))))))
+    (. .)))
+
+===========result of graph===========
+[used nsubjpass>[books compound>Picture] aux>can auxpass>be conj:or>[used nsubjpass>books nmod:as>[text case>as det>a amod>supplementary conj:or>[text nmod:for>[learners case>for advmod>just det>some acl>[needing dobj>[support amod>extra]]]] nmod:for>[all case>for] cc>or] nmod:as>text] nmod:as>[text case>as det>a amod>primary acl>[introduce mark>to cc>and conj:and>examine dobj>[issue det>an]] acl>examine] cc>or punct>.]
 ===========Pos and Ner tag===========
 word		pos		ne
 For		IN		O
-loop		NN		O
-In		IN		O
-computer		NN		O
+instance		NN		O
+,		,		O
+a		DT		O
+middle		JJ		O
+school		NN		O
 science		NN		O
-,		,		O
-a		DT		O
-for-loop		NN		O
+teacher		NN		O
+used		VBN		O
+A		DT		O
+River		NN		O
+Ran		NN		O
+Wild		NNP		O
+:		:		O
+An		DT		O
+Environmental		JJ		O
+History		NN		O
 -LRB-		-LRB-		O
-or		CC		O
-simply		RB		O
-for		IN		O
-loop		NN		O
--RRB-		-RRB-		O
-is		VBZ		O
-a		DT		O
-control		NN		O
-flow		NN		O
-statement		NN		O
-for		IN		O
-specifying		VBG		O
-iteration		NN		O
+Cherry		NNP		O
 ,		,		O
-which		WDT		O
-allows		VBZ		O
-code		NN		O
+1992		CD		DATE
+-RRB-		-RRB-		O
+,		,		O
+a		DT		O
+story		NN		O
+about		IN		O
+the		DT		O
+Nashua		NNP		LOCATION
+River		NNP		LOCATION
+of		IN		LOCATION
+New		NNP		LOCATION
+Hampshire		NNP		LOCATION
+,		,		O
 to		TO		O
-be		VB		O
-executed		VBN		O
-repeatedly		RB		O
+teach		VB		O
+all		DT		O
+learners		NNS		O
+in		IN		O
+the		DT		O
+class		NN		O
+about		IN		O
+conservation		NN		O
+and		CC		O
+pollution		NN		O
 .		.		O
 ===========result of tree===========
 (ROOT
   (S
     (PP (IN For)
-      (NP (NN loop)))
-    (PP (IN In)
-      (NP (NN computer) (NN science)))
+      (NP (NN instance)))
     (, ,)
-    (NP
-      (NP (DT a) (NN for-loop))
-      (PRN (-LRB- -LRB-)
-        (CC or)
-        (ADJP (RB simply)
-          (PP (IN for)
-            (NP (NN loop))))
-        (-RRB- -RRB-)))
-    (VP (VBZ is)
+    (NP (DT a) (JJ middle) (NN school) (NN science) (NN teacher))
+    (VP (VBN used)
       (NP
-        (NP (DT a) (NN control) (NN flow) (NN statement))
-        (PP (IN for)
-          (S
-            (VP (VBG specifying)
-              (NP
-                (NP (NN iteration))
-                (, ,)
-                (SBAR
-                  (WHNP (WDT which))
-                  (S
-                    (VP (VBZ allows)
-                      (NP (NN code))
-                      (S
-                        (VP (TO to)
-                          (VP (VB be)
-                            (VP (VBN executed)
-                              (ADVP (RB repeatedly)))))))))))))))
-    (. .)))
-
-===========result of graph===========
-[statement nmod:for>[loop case>For] nmod:in>[science case>In compound>computer] punct>, nsubj>[for-loop det>a dep>[simply punct>-LRB- cc>or nmod:for>[loop case>for] punct>-RRB-]] cop>is det>a compound>control compound>flow acl>[specifying mark>for dobj>[iteration punct>, acl:relcl>[allows nsubj>which dobj>code xcomp>[executed mark>to auxpass>be advmod>repeatedly]]]] punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-The		DT		O
-syntax		NN		O
-of		IN		O
-a		DT		O
-for-loop		NN		O
-is		VBZ		O
-based		VBN		O
-on		IN		O
-the		DT		O
-heritage		NN		O
-of		IN		O
-the		DT		O
-language		NN		O
-and		CC		O
-the		DT		O
-prior		JJ		O
-programming		NN		O
-languages		NNS		O
-it		PRP		O
-borrowed		VBD		O
-from		IN		O
-,		,		O
-so		IN		O
-programming		NN		O
-languages		NNS		O
-that		WDT		O
-are		VBP		O
-descendants		NNS		O
-of		IN		O
-or		CC		O
-offshoots		NNS		O
-of		IN		O
-a		DT		O
-language		NN		O
-that		WDT		O
-originally		RB		O
-provided		VBD		O
-an		DT		O
-iterator		NN		O
-will		MD		O
-often		RB		O
-use		VB		O
-the		DT		O
-same		JJ		O
-keyword		NN		O
-to		TO		O
-name		VB		O
-an		DT		O
-iterator		NN		O
-,		,		O
-e.g.		FW		O
-,		,		O
-descendants		NNS		O
-of		IN		O
-ALGOL		NNP		ORGANIZATION
-use		VBP		O
-``		``		O
-for		IN		O
-''		''		O
-,		,		O
-while		IN		O
-descendants		NNS		O
-of		IN		O
-Fortran		NNP		O
-use		VBP		O
-``		``		O
-do		VBP		O
-.		.		O
-''		''		O
-===========result of tree===========
-(ROOT
-  (S
-    (S
-      (NP
-        (NP (DT The) (NN syntax))
-        (PP (IN of)
-          (NP (DT a) (NN for-loop))))
-      (VP (VBZ is)
-        (VP (VBN based)
-          (PP (IN on)
-            (NP
-              (NP (DT the) (NN heritage))
-              (PP (IN of)
-                (NP
-                  (NP (DT the) (NN language))
-                  (CC and)
-                  (NP (DT the) (JJ prior) (NN programming) (NNS languages)))))))))
-    (PRN
-      (S
-        (NP (PRP it))
-        (VP (VBD borrowed)
-          (PP (IN from))))
-      (, ,))
-    (IN so)
-    (S
-      (NP
-        (NP (NN programming) (NNS languages))
-        (SBAR
-          (WHNP (WDT that))
-          (S
-            (VP (VBP are)
-              (NP
-                (NP
-                  (NP (NNS descendants))
-                  (PP (IN of)))
-                (CC or)
-                (NP
-                  (NP (NNS offshoots))
-                  (PP (IN of)
-                    (NP
-                      (NP (DT a) (NN language))
-                      (SBAR
-                        (WHNP (WDT that))
-                        (S
-                          (ADVP (RB originally))
-                          (VP (VBD provided)
-                            (SBAR
-                              (S
-                                (NP (DT an) (NN iterator))
-                                (VP (MD will)
-                                  (ADVP (RB often))
-                                  (VP (VB use)
-                                    (NP (DT the) (JJ same) (NN keyword)
-                                      (S
-                                        (VP (TO to)
-                                          (VP (VB name)
-                                            (NP
-                                              (NP
-                                                (NP (DT an) (NN iterator))
-                                                (, ,)
-                                                (NP (FW e.g.))
-                                                (, ,))
-                                              (SBAR
-                                                (S
-                                                  (NP
-                                                    (NP (NNS descendants))
-                                                    (PP (IN of)
-                                                      (NP (NNP ALGOL))))
-                                                  (VP (VBP use)))))
-                                            (`` ``)
-                                            (PP (IN for))
-                                            ('' '')))))
-                                    (, ,)
-                                    (SBAR (IN while)
-                                      (S
-                                        (NP
-                                          (NP (NNS descendants))
-                                          (PP (IN of)
-                                            (NP (NNP Fortran))))
-                                        (VP (VBP use)))))))))))))))))))
-      (`` ``)
-      (VP (VBP do)))
-    (. .) ('' '')))
-
-===========result of graph===========
-[based nsubjpass>[syntax det>The nmod:of>[for-loop case>of det>a]] auxpass>is nmod:on>[heritage case>on det>the nmod:of>[language case>of det>the cc>and conj:and>[languages det>the amod>prior compound>programming]] nmod:of>languages] dep>[borrowed nsubj>it nmod>from punct>,] dep>so parataxis>[do nsubj>[languages compound>programming acl:relcl>[descendants nsubj>that cop>are acl>of cc>or conj:or>[offshoots nmod:of>[language case>of det>a acl:relcl>[provided nsubj>that advmod>originally ccomp>[use nsubj>[iterator det>an] aux>will advmod>often dobj>[keyword det>the amod>same acl>[name mark>to dobj>[iterator det>an punct>, appos>e.g. punct>, acl:relcl>[use nsubj>[descendants nmod:of>[ALGOL case>of]]]] punct>`` nmod>for punct>'']] punct>, advcl>[use mark>while nsubj>[descendants nmod:of>[Fortran case>of]]]]]]]] acl:relcl>offshoots] punct>``] punct>. punct>'']
-===========Pos and Ner tag===========
-word		pos		ne
-There		EX		O
-are		VBP		O
-other		JJ		O
-possibilities		NNS		O
-,		,		O
-for		IN		O
-example		NN		O
-COBOL		NNP		O
-which		WDT		O
-uses		VBZ		O
-``		``		O
-PERFORM		NNP		O
-VARYING		NNP		O
-''		''		O
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (NP (EX There))
-    (VP (VBP are)
-      (NP (JJ other) (NNS possibilities))
+        (NP
+          (NP (DT A) (NN River) (NN Ran))
+          (NP (NNP Wild)))
+        (: :)
+        (NP
+          (NP (DT An) (JJ Environmental) (NN History))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP Cherry))
+            (, ,)
+            (NP (CD 1992))
+            (-RRB- -RRB-))
+          (, ,)
+          (NP (DT a) (NN story))))
+      (PP (IN about)
+        (NP
+          (NP (DT the) (NNP Nashua) (NNP River))
+          (PP (IN of)
+            (NP (NNP New) (NNP Hampshire)))))
       (, ,)
-      (PP (IN for)
-        (NP
-          (NP (NN example) (NNP COBOL))
-          (SBAR
-            (WHNP (WDT which))
-            (S
-              (VP (VBZ uses)
-                (S (`` ``)
-                  (NP (NNP PERFORM) (NNP VARYING))
-                  ('' ''))))))))
-    (. .)))
-
-===========result of graph===========
-[are expl>There nsubj>[possibilities amod>other] punct>, nmod:for>[COBOL case>for compound>example acl:relcl>[uses nsubj>which xcomp>[VARYING punct>`` compound>PERFORM punct>'']]] punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-Unlike		IN		O
-many		JJ		O
-other		JJ		O
-kinds		NNS		O
-of		IN		O
-loops		NNS		O
-,		,		O
-such		JJ		O
-as		IN		O
-the		DT		O
-while-loop		NN		O
-,		,		O
-the		DT		O
-for-loop		NN		O
-is		VBZ		O
-often		RB		O
-distinguished		VBN		O
-by		IN		O
-an		DT		O
-explicit		JJ		O
-loop		NN		O
-counter		NN		O
-or		CC		O
-loop		NN		O
-variable		NN		O
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (PP (IN Unlike)
-      (NP
-        (NP (JJ many) (JJ other) (NNS kinds))
-        (PP (IN of)
-          (NP (NNS loops)))
-        (, ,)
-        (PP (JJ such) (IN as)
-          (NP (DT the) (NN while-loop)))))
-    (, ,)
-    (NP (DT the) (NN for-loop))
-    (VP (VBZ is)
-      (ADVP (RB often))
-      (VP (VBN distinguished)
-        (PP (IN by)
-          (NP (DT an) (JJ explicit) (NN loop) (NN counter)
-            (CC or)
-            (NN loop) (NN variable)))))
-    (. .)))
-
-===========result of graph===========
-[distinguished nmod:unlike>[kinds case>Unlike amod>many amod>other nmod:of>[loops case>of] punct>, nmod:such_as>[while-loop case>[such mwe>as] det>the]] punct>, nsubjpass>[for-loop det>the] auxpass>is advmod>often nmod:agent>[counter case>by det>an amod>explicit compound>loop cc>or conj:or>[variable compound>loop]] nmod:agent>variable punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-This		DT		O
-allows		VBZ		O
-the		DT		O
-body		NN		O
-of		IN		O
-the		DT		O
-for-loop		JJ		O
--LRB-		-LRB-		O
-the		DT		O
-code		NN		O
-that		WDT		O
-is		VBZ		O
-being		VBG		O
-repeatedly		RB		O
-executed		VBN		O
--RRB-		-RRB-		O
-to		TO		O
-know		VB		O
-about		IN		O
-the		DT		O
-sequencing		NN		O
-of		IN		O
-each		DT		O
-iteration		NN		O
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (NP (DT This))
-    (VP (VBZ allows)
-      (NP
-        (NP (DT the) (NN body))
-        (PP (IN of)
-          (NP (DT the) (JJ for-loop))))
-      (PRN (-LRB- -LRB-)
-        (NP
-          (NP (DT the) (NN code))
-          (SBAR
-            (WHNP (WDT that))
-            (S
-              (VP (VBZ is)
-                (VP (VBG being)
-                  (VP
-                    (ADVP (RB repeatedly))
-                    (VBN executed)))))))
-        (-RRB- -RRB-))
       (S
         (VP (TO to)
-          (VP (VB know)
-            (PP (IN about)
+          (VP (VB teach)
+            (NP (DT all) (NNS learners))
+            (PP (IN in)
               (NP
-                (NP (DT the) (NN sequencing))
-                (PP (IN of)
-                  (NP (DT each) (NN iteration)))))))))
+                (NP (DT the) (NN class))
+                (PP (IN about)
+                  (NP (NN conservation)
+                    (CC and)
+                    (NN pollution)))))))))
     (. .)))
 
 ===========result of graph===========
-[allows nsubj>This dobj>[body det>the nmod:of>[for-loop case>of det>the]] dep>[code punct>-LRB- det>the acl:relcl>[executed nsubjpass>that aux>is auxpass>being advmod>repeatedly] punct>-RRB-] xcomp>[know mark>to nmod:about>[sequencing case>about det>the nmod:of>[iteration case>of det>each]]] punct>.]
+[used nmod:for>[instance case>For] punct>, nsubj>[teacher det>a amod>middle compound>school compound>science] dobj>[Ran det>A compound>River appos>Wild punct>: dep>[History det>An amod>Environmental appos>[Cherry punct>-LRB- punct>, dep>1992 punct>-RRB-] punct>, appos>[story det>a]]] nmod:about>[River case>about det>the compound>Nashua nmod:of>[Hampshire case>of compound>New]] punct>, advcl>[teach mark>to dobj>[learners det>all] nmod:in>[class case>in det>the nmod:about>[conservation case>about cc>and conj:and>pollution] nmod:about>pollution]] punct>.]
 ===========Pos and Ner tag===========
 word		pos		ne
-For-loops		NNS		O
-are		VBP		O
-also		RB		O
-typically		RB		O
-used		VBN		O
-when		WRB		O
-the		DT		O
-number		NN		O
+The		DT		O
+text		NN		O
+includes		VBZ		O
+not		RB		O
+only		RB		O
+a		DT		O
+story		NN		O
 of		IN		O
-iterations		NNS		O
-is		VBZ		O
-known		VBN		O
-before		IN		O
-entering		VBG		O
 the		DT		O
-loop		NN		O
+river		NN		O
+itself		PRP		O
+but		CC		O
+also		RB		O
+contrasting		VBG		O
+maps		NNS		O
+of		IN		O
+New		NNP		LOCATION
+England		NNP		LOCATION
+-LRB-		-LRB-		O
+in		IN		O
+the		DT		DATE
+1500s		NNS		DATE
+and		CC		O
+in		IN		O
+the		DT		DATE
+1900s		NNS		DATE
+-RRB-		-RRB-		O
+and		CC		O
+an		DT		O
+author		NN		O
+'s		POS		O
+note		NN		O
+detailing		VBG		O
+the		DT		O
+work		NN		O
+of		IN		O
+a		DT		O
+committee		NN		O
+who		WP		O
+organized		VBD		O
+to		TO		O
+clean		VB		O
+up		RP		O
+the		DT		O
+Nashua		NNP		LOCATION
 .		.		O
 ===========result of tree===========
 (ROOT
   (S
-    (NP (NNS For-loops))
-    (VP (VBP are)
-      (ADVP (RB also))
-      (VP
-        (ADVP (RB typically))
-        (VBN used)
-        (SBAR
-          (WHADVP (WRB when))
+    (NP (DT The) (NN text))
+    (VP (VBZ includes)
+      (NP
+        (NP
+          (CONJP (RB not) (RB only))
+          (NP
+            (NP (DT a) (NN story))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN river))
+                (ADVP (PRP itself)))))
+          (CONJP (CC but)
+            (RB also))
+          (NP (VBG contrasting) (NNS maps)))
+        (PP (IN of)
           (S
             (NP
-              (NP (DT the) (NN number))
-              (PP (IN of)
-                (NP (NNS iterations))))
-            (VP (VBZ is)
-              (VP (VBN known)
-                (PP (IN before)
-                  (S
-                    (VP (VBG entering)
-                      (NP (DT the) (NN loop)))))))))))
-    (. .)))
-
-===========result of graph===========
-[used nsubjpass>For-loops auxpass>are advmod>also advmod>typically advcl>[known advmod>when nsubjpass>[number det>the nmod:of>[iterations case>of]] auxpass>is advcl>[entering mark>before dobj>[loop det>the]]] punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-For-loops		NNS		O
-are		VBP		O
-the		DT		O
-shorthand		NN		O
-way		NN		O
-to		TO		O
-make		VB		O
-loops		NNS		O
-when		WRB		O
-the		DT		O
-number		NN		O
-of		IN		O
-iterations		NNS		O
-is		VBZ		O
-known		VBN		O
-,		,		O
-as		IN		O
-every		DT		O
-for-loop		NN		O
-could		MD		O
-be		VB		O
-written		VBN		O
-as		IN		O
-a		DT		O
-while-loop		NN		O
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (NP (NNS For-loops))
-    (VP (VBP are)
-      (NP (DT the) (NN shorthand) (NN way)
-        (S
-          (VP (TO to)
-            (VP (VB make)
-              (NP (NNS loops))
-              (SBAR
-                (WHADVP (WRB when))
-                (S
+              (NP
+                (NP (NNP New) (NNP England))
+                (PRN (-LRB- -LRB-)
+                  (PP
+                    (PP (IN in)
+                      (NP (DT the) (NNS 1500s)))
+                    (CC and)
+                    (PP (IN in)
+                      (NP (DT the) (NNS 1900s))))
+                  (-RRB- -RRB-)))
+              (CC and)
+              (NP
+                (NP (DT an) (NN author) (POS 's))
+                (NN note)))
+            (VP (VBG detailing)
+              (NP
+                (NP (DT the) (NN work))
+                (PP (IN of)
                   (NP
-                    (NP (DT the) (NN number))
-                    (PP (IN of)
-                      (NP (NNS iterations))))
-                  (VP (VBZ is)
-                    (ADJP (VBN known))
-                    (, ,)
-                    (SBAR (IN as)
-                      (S
-                        (NP (DT every) (NN for-loop))
-                        (VP (MD could)
-                          (VP (VB be)
-                            (VP (VBN written)
-                              (PP (IN as)
-                                (NP (DT a) (NN while-loop))))))))))))))))
-    (. .)))
-
-===========result of graph===========
-[way nsubj>For-loops cop>are det>the compound>shorthand acl>[make mark>to dobj>loops advcl>[known advmod>when nsubjpass>[number det>the nmod:of>[iterations case>of]] auxpass>is punct>, advcl>[written mark>as nsubjpass>[for-loop det>every] aux>could auxpass>be nmod:as>[while-loop case>as det>a]]]] punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-The		DT		O
-name		NN		O
-for-loop		NN		O
-comes		VBZ		O
-from		IN		O
-the		DT		O
-English		NNP		MISC
-word		NN		O
-for		IN		O
-,		,		O
-which		WDT		O
-is		VBZ		O
-used		VBN		O
-as		IN		O
-the		DT		O
-keyword		NN		O
-in		IN		O
-most		JJS		O
-programming		NN		O
-languages		NNS		O
-to		TO		O
-introduce		VB		O
-a		DT		O
-for-loop		NN		O
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (NP (DT The) (NN name) (NN for-loop))
-    (VP (VBZ comes)
-      (PP (IN from)
-        (NP
-          (NP (DT the) (NNP English) (NN word))
-          (PP (IN for))
-          (, ,)
-          (SBAR
-            (WHNP (WDT which))
-            (S
-              (VP (VBZ is)
-                (VP (VBN used)
-                  (PP (IN as)
-                    (NP
-                      (NP (DT the) (NN keyword))
-                      (PP (IN in)
-                        (NP (JJS most) (NN programming) (NNS languages)))))
-                  (S
-                    (VP (TO to)
-                      (VP (VB introduce)
-                        (NP (DT a) (NN for-loop))))))))))))
-    (. .)))
-
-===========result of graph===========
-[comes nsubj>[for-loop det>The compound>name] nmod:from>[word case>from det>the compound>English acl>for punct>, acl:relcl>[used nsubjpass>which auxpass>is nmod:as>[keyword case>as det>the nmod:in>[languages case>in amod>most compound>programming]] xcomp>[introduce mark>to dobj>[for-loop det>a]]]] punct>.]
-===========Pos and Ner tag===========
-word		pos		ne
-The		DT		O
-term		NN		O
-in		IN		O
-English		NNP		MISC
-dates		NNS		O
-to		TO		O
-ALGOL		NNP		ORGANIZATION
-58		CD		NUMBER
-and		CC		O
-was		VBD		O
-popularized		VBN		O
-in		IN		O
-the		DT		O
-influential		JJ		O
-later		JJ		O
-ALGOL		NNP		ORGANIZATION
-60		CD		NUMBER
-;		:		O
-it		PRP		O
-is		VBZ		O
-the		DT		O
-direct		JJ		O
-translation		NN		O
-of		IN		O
-the		DT		O
-earlier		JJR		O
-German		JJ		MISC
-für		NN		O
-,		,		O
-used		VBN		O
-in		IN		O
-Superplan		NNP		LOCATION
--LRB-		-LRB-		O
-1949		CD		DATE
---		:		O
-1951		CD		DATE
--RRB-		-RRB-		O
-by		IN		O
-Heinz		NNP		PERSON
-Rutishauser		NNP		PERSON
-,		,		O
-who		WP		O
-also		RB		O
-was		VBD		O
-involved		VBN		O
-in		IN		O
-defining		VBG		O
-ALGOL		NNP		ORGANIZATION
-58		CD		NUMBER
-and		CC		O
-ALGOL		NNP		ORGANIZATION
-60		CD		NUMBER
-.		.		O
-===========result of tree===========
-(ROOT
-  (S
-    (S
-      (NP (DT The) (NN term))
-      (VP
-        (VP
-          (PP (IN in)
-            (NP (NNP English) (NNS dates)))
-          (PP (TO to)
-            (NP (NNP ALGOL) (CD 58))))
-        (CC and)
-        (VP (VBD was)
-          (VP (VBN popularized)
-            (PP (IN in)
-              (NP (DT the)
-                (ADJP (JJ influential)
-                  (NP (JJ later) (NNP ALGOL)))
-                (CD 60)))))))
-    (: ;)
-    (S
-      (NP (PRP it))
-      (VP (VBZ is)
-        (NP
-          (NP (DT the) (JJ direct) (NN translation))
-          (PP (IN of)
-            (NP
-              (NP (DT the) (JJR earlier) (JJ German) (NN für))
-              (, ,)
-              (VP (VBN used)
-                (PP (IN in)
-                  (NP
-                    (NP (NNP Superplan))
-                    (PRN (-LRB- -LRB-)
-                      (NP
-                        (NP (CD 1949))
-                        (: --)
-                        (NP (CD 1951)))
-                      (-RRB- -RRB-))))
-                (PP (IN by)
-                  (NP
-                    (NP (NNP Heinz) (NNP Rutishauser))
-                    (, ,)
+                    (NP (DT a) (NN committee))
                     (SBAR
                       (WHNP (WP who))
                       (S
-                        (ADVP (RB also))
-                        (VP (VBD was)
-                          (VP (VBN involved)
-                            (PP (IN in)
-                              (S
-                                (VP (VBG defining)
-                                  (NP
-                                    (NP (NNP ALGOL) (CD 58))
-                                    (CC and)
-                                    (NP (NNP ALGOL) (CD 60))))))))))))))))))
+                        (VP (VBD organized)
+                          (S
+                            (VP (TO to)
+                              (VP (VB clean)
+                                (PRT (RP up))
+                                (NP (DT the) (NNP Nashua))))))))))))))))
     (. .)))
 
 ===========result of graph===========
-[dates nsubj>[term det>The] case>in compound>English nmod:to>[ALGOL case>to nummod>58] cc>and conj:and>[popularized nsubjpass>term auxpass>was nmod:in>[60 case>in det>the amod>[influential dep>[ALGOL amod>later]]]] punct>; parataxis>[translation nsubj>it cop>is det>the amod>direct nmod:of>[für case>of det>the amod>earlier amod>German punct>, acl>[used nmod:in>[Superplan case>in dep>[1949 punct>-LRB- punct>-- dep>1951 punct>-RRB-]] nmod:by>[Rutishauser case>by compound>Heinz punct>, acl:relcl>[involved nsubjpass>who advmod>also auxpass>was advcl>[defining mark>in dobj>[ALGOL nummod>58 cc>and conj:and>[ALGOL nummod>60]] dobj>ALGOL]]]]]] punct>.]
+[includes nsubj>[text det>The] dobj>[story cc:preconj>[only neg>not] det>a nmod:of>[river case>of det>the advmod>itself] cc>but conj:and>[maps advmod>also amod>contrasting] acl>[detailing mark>of nsubj>[England compound>New conj:and>[England nmod:in>[1900s case>in det>the]] nmod:in>[1500s punct>-LRB- case>in det>the punct>-RRB-] cc>and cc>and conj:and>[note nmod:poss>[author det>an case>'s]]] nsubj>England nsubj>note dobj>[work det>the nmod:of>[committee case>of det>a acl:relcl>[organized nsubj>who xcomp>[clean mark>to compound:prt>up dobj>[Nashua det>the]]]]]]] dobj>maps punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Story		NNP		O
+kits		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (NP
+    (NP (NNP Story))
+    (NP (NNS kits))
+    (. .)))
+
+===========result of graph===========
+[Story dep>kits punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+For		IN		O
+students		NNS		O
+with		IN		O
+more		JJR		O
+significant		JJ		O
+disabilities		NNS		O
+,		,		O
+for		IN		O
+those		DT		O
+who		WP		O
+are		VBP		O
+blind		JJ		O
+or		CC		O
+have		VB		O
+low		JJ		O
+vision		NN		O
+,		,		O
+or		CC		O
+for		IN		O
+those		DT		O
+just		RB		O
+needing		VBG		O
+a		DT		O
+more		RBR		O
+concrete		JJ		O
+way		NN		O
+of		IN		O
+relating		VBG		O
+to		TO		O
+a		DT		O
+piece		NN		O
+of		IN		O
+text		NN		O
+,		,		O
+teachers		NNS		O
+might		MD		O
+consider		VB		O
+the		DT		O
+use		NN		O
+of		IN		O
+story		NN		O
+kits		NNS		O
+as		IN		O
+a		DT		O
+tool		NN		O
+for		IN		O
+improving		VBG		O
+literacy		NN		O
+learning		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (NNS students))
+        (PP (IN with)
+          (NP (JJR more) (JJ significant) (NNS disabilities)))))
+    (, ,)
+    (PP
+      (PP (IN for)
+        (NP
+          (NP (DT those))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP
+                (VP (VBP are)
+                  (ADJP (JJ blind)))
+                (CC or)
+                (VP (VB have)
+                  (NP (JJ low) (NN vision))))))))
+      (, ,)
+      (CC or)
+      (PP (IN for)
+        (S
+          (NP (DT those))
+          (ADVP (RB just))
+          (VP (VBG needing)
+            (NP
+              (NP (DT a)
+                (ADJP (RBR more) (JJ concrete))
+                (NN way))
+              (PP (IN of)
+                (S
+                  (VP (VBG relating)
+                    (PP (TO to)
+                      (NP
+                        (NP (DT a) (NN piece))
+                        (PP (IN of)
+                          (NP (NN text)))))))))))))
+    (, ,)
+    (NP (NNS teachers))
+    (VP (MD might)
+      (VP (VB consider)
+        (NP
+          (NP (DT the) (NN use))
+          (PP (IN of)
+            (NP (NN story) (NNS kits))))
+        (PP (IN as)
+          (NP
+            (NP (DT a) (NN tool))
+            (PP (IN for)
+              (NP (VBG improving) (NN literacy) (NN learning)))))))
+    (. .)))
+
+===========result of graph===========
+[consider nmod:for>[students case>For nmod:with>[disabilities case>with amod>more amod>significant]] punct>, nmod:for>[those case>for acl:relcl>[blind nsubj>who cop>are cc>or conj:or>[have nsubj>who dobj>[vision amod>low]]] acl:relcl>have punct>, cc>or conj:or>[needing mark>for nsubj>those advmod>just dobj>[way det>a amod>[concrete advmod>more] acl>[relating mark>of nmod:to>[piece case>to det>a nmod:of>[text case>of]]]]]] nmod:for>needing punct>, nsubj>teachers aux>might dobj>[use det>the nmod:of>[kits case>of compound>story]] nmod:as>[tool case>as det>a nmod:for>[learning case>for amod>improving compound>literacy]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+A		DT		O
+story		NN		O
+kit		NN		O
+is		VBZ		O
+simply		RB		O
+a		DT		O
+bag		NN		O
+or		CC		O
+box		NN		O
+of		IN		O
+items		NNS		O
+related		VBN		O
+to		TO		O
+a		DT		O
+theme		NN		O
+,		,		O
+unit		NN		O
+,		,		O
+or		CC		O
+particular		JJ		O
+story		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT A) (NN story) (NN kit))
+    (VP (VBZ is)
+      (ADVP (RB simply))
+      (NP
+        (NP (DT a) (NN bag)
+          (CC or)
+          (NN box))
+        (PP (IN of)
+          (NP
+            (NP (NNS items))
+            (VP (VBN related)
+              (PP (TO to)
+                (NP
+                  (NP (DT a) (NN theme))
+                  (, ,)
+                  (NP (NN unit))
+                  (, ,)
+                  (CC or)
+                  (NP (JJ particular) (NN story)))))))))
+    (. .)))
+
+===========result of graph===========
+[bag nsubj>[kit det>A compound>story] cop>is advmod>simply det>a cc>or conj:or>box nmod:of>[items case>of acl>[related nmod:to>[theme case>to det>a punct>, conj:or>unit punct>, cc>or conj:or>[story amod>particular]] nmod:to>unit nmod:to>story]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+A		DT		O
+kit		NN		O
+for		IN		O
+the		DT		O
+``		``		O
+Little		NNP		O
+House		NNP		O
+''		''		O
+books		NNS		O
+by		IN		O
+Laura		NNP		PERSON
+Ingalls		NNP		PERSON
+Wilder		NNP		PERSON
+,		,		O
+for		IN		O
+instance		NN		O
+,		,		O
+might		MD		O
+contain		VB		O
+a		DT		O
+tin		NN		O
+cup		NN		O
+,		,		O
+a		DT		O
+rag		NN		O
+doll		NN		O
+,		,		O
+a		DT		O
+girl		NN		O
+'s		POS		O
+bonnet		NN		O
+,		,		O
+a		DT		O
+small		JJ		O
+toy		NN		O
+fiddle		NN		O
+,		,		O
+and		CC		O
+a		DT		O
+piece		NN		O
+of		IN		O
+chalk		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN kit))
+      (RRC
+        (PP (IN for)
+          (NP (DT the) (`` ``) (NNP Little) (NNP House) ('' '')))
+        (NP (NNS books))
+        (PP (IN by)
+          (NP (NNP Laura) (NNP Ingalls) (NNP Wilder)))
+        (, ,)
+        (PP (IN for)
+          (NP (NN instance))))
+      (, ,))
+    (VP (MD might)
+      (VP (VB contain)
+        (NP
+          (NP (DT a) (NN tin) (NN cup))
+          (, ,)
+          (NP (DT a) (NN rag) (NN doll))
+          (, ,)
+          (NP
+            (NP (DT a) (NN girl) (POS 's))
+            (NN bonnet))
+          (, ,)
+          (NP (DT a) (JJ small) (NN toy) (NN fiddle))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (DT a) (NN piece))
+            (PP (IN of)
+              (NP (NN chalk)))))))
+    (. .)))
+
+===========result of graph===========
+[contain nsubj>[kit det>A acl:relcl>[books nmod:for>[House case>for det>the punct>`` compound>Little punct>''] nmod:by>[Wilder case>by compound>Laura compound>Ingalls] punct>, nmod:for>[instance case>for]] punct>,] aux>might dobj>[cup det>a compound>tin punct>, conj:and>[doll det>a compound>rag] punct>, conj:and>[bonnet nmod:poss>[girl det>a case>'s]] punct>, conj:and>[fiddle det>a amod>small compound>toy] punct>, cc>and conj:and>[piece det>a nmod:of>[chalk case>of]]] dobj>doll dobj>bonnet dobj>fiddle dobj>piece punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Story		NNP		O
+kits		NNS		O
+can		MD		O
+help		VB		O
+a		DT		O
+reader		NN		O
+generate		VBP		O
+ideas		NNS		O
+,		,		O
+retain		VBP		O
+information		NN		O
+,		,		O
+and		CC		O
+further		RB		O
+their		PRP$		O
+understanding		NN		O
+of		IN		O
+a		DT		O
+particular		JJ		O
+idea		NN		O
+or		CC		O
+concept		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNP Story) (NNS kits))
+    (VP (MD can)
+      (VP (VB help)
+        (NP
+          (NP (DT a) (NN reader))
+          (VP (VBP generate)
+            (NP (NNS ideas))
+            (, ,) (VBP retain)
+            (NP
+              (NP (NN information))
+              (, ,)
+              (CC and)
+              (ADVP (RB further))
+              (NP
+                (NP (PRP$ their) (NN understanding))
+                (PP (IN of)
+                  (NP (DT a) (JJ particular) (NN idea)
+                    (CC or)
+                    (NN concept)))))))))
+    (. .)))
+
+===========result of graph===========
+[help nsubj>[kits compound>Story] aux>can dobj>[reader det>a dep>[generate dobj>ideas punct>, dep>retain dobj>[information punct>, cc>and conj:and>[understanding advmod>further nmod:poss>their nmod:of>[idea case>of det>a amod>particular cc>or conj:or>concept] nmod:of>concept]] dobj>understanding]] punct>.]
 ===========Pos and Ner tag===========
 word		pos		ne
 The		DT		O
-loop		NN		O
-body		NN		O
-is		VBZ		O
-executed		VBN		O
-``		``		O
-for		IN		O
-''		''		O
-the		DT		O
-given		VBN		O
-values		NNS		O
-of		IN		O
-the		DT		O
-loop		NN		O
-variable		NN		O
-,		,		O
-though		IN		O
-this		DT		O
-is		VBZ		O
-more		RBR		O
-explicit		JJ		O
-in		IN		O
-the		DT		O
-ALGOL		NNP		O
-version		NN		O
-of		IN		O
-the		DT		O
-statement		NN		O
-,		,		O
-in		IN		O
-which		WDT		O
-a		DT		O
-list		NN		O
-of		IN		O
-possible		JJ		O
-values		NNS		O
-and/or		CC		O
-increments		NNS		O
+kit		NN		O
 can		MD		O
 be		VB		O
-specified		VBN		O
+used		VBN		O
+to		TO		O
+introduce		VB		O
+or		CC		O
+review		VB		O
+the		DT		O
+story		NN		O
+,		,		O
+to		TO		O
+interest		NN		O
+and		CC		O
+support		NN		O
+students		NNS		O
+as		IN		O
+they		PRP		O
+discuss		VBP		O
+certain		JJ		O
+passages		NNS		O
+or		CC		O
+chapters		NNS		O
+,		,		O
+and		CC		O
+to		TO		O
+give		VB		O
+them		PRP		O
+cues		NNS		O
+as		IN		O
+they		PRP		O
+engage		VBP		O
+in		IN		O
+other		JJ		O
+activities		NNS		O
+related		VBN		O
+to		TO		O
+the		DT		O
+book		NN		O
+-LRB-		-LRB-		O
+e.g.		FW		O
+,		,		O
+writing		VBG		O
+a		DT		O
+report		NN		O
+-RRB-		-RRB-		O
 .		.		O
 ===========result of tree===========
 (ROOT
   (S
-    (NP (DT The) (NN loop) (NN body))
-    (VP (VBZ is)
-      (VP (VBN executed) (`` ``)
-        (PP (IN for) ('' '')
-          (NP
-            (NP (DT the) (VBN given) (NNS values))
-            (PP (IN of)
-              (NP
-                (NP (DT the) (NN loop) (NN variable))
-                (, ,)
-                (SBAR (IN though)
-                  (S
-                    (NP (DT this))
-                    (VP (VBZ is)
-                      (ADJP (RBR more) (JJ explicit)
+    (NP (DT The) (NN kit))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN used)
+          (S
+            (VP
+              (VP (TO to)
+                (VP (VB introduce)
+                  (CC or)
+                  (VB review)
+                  (NP (DT the) (NN story))
+                  (, ,)
+                  (PP (TO to)
+                    (NP
+                      (NP (NN interest)
+                        (CC and)
+                        (NN support) (NNS students))
+                      (SBAR (IN as)
+                        (S
+                          (NP (PRP they))
+                          (VP (VBP discuss)
+                            (NP (JJ certain) (NNS passages)
+                              (CC or)
+                              (NNS chapters)))))))))
+              (, ,)
+              (CC and)
+              (VP (TO to)
+                (VP (VB give)
+                  (NP (PRP them))
+                  (NP (NNS cues))
+                  (SBAR (IN as)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBP engage)
                         (PP (IN in)
                           (NP
-                            (NP (DT the) (NNP ALGOL) (NN version))
-                            (PP (IN of)
-                              (NP
-                                (NP (DT the) (NN statement))
-                                (, ,)
-                                (SBAR
-                                  (WHPP (IN in)
-                                    (WHNP (WDT which)))
-                                  (S
-                                    (NP
-                                      (NP (DT a) (NN list))
-                                      (PP (IN of)
-                                        (NP
-                                          (NP (JJ possible) (NNS values))
-                                          (CC and/or)
-                                          (NP (NNS increments)))))
-                                    (VP (MD can)
-                                      (VP (VB be)
-                                        (VP (VBN specified))))))))))))))))))))
+                            (NP (JJ other) (NNS activities))
+                            (VP (VBN related)
+                              (PP (TO to)
+                                (NP
+                                  (NP (DT the) (NN book))
+                                  (-LRB- -LRB-)
+                                  (NP (FW e.g.))
+                                  (, ,)))
+                              (S
+                                (VP (VBG writing)
+                                  (NP (DT a) (NN report)))))))))))))))))
+    (-RRB- -RRB-) (. .)))
+
+===========result of graph===========
+[used nsubjpass>[kit det>The] aux>can auxpass>be ccomp>[introduce mark>to cc>or conj:or>review dobj>[story det>the] punct>, nmod:to>[students case>to compound>[interest cc>and conj:and>support] compound>support dep>[discuss mark>as nsubj>they dobj>[passages amod>certain cc>or conj:or>chapters] dobj>chapters]] punct>, cc>and conj:and>[give mark>to iobj>them dobj>cues advcl>[engage mark>as nsubj>they nmod:in>[activities case>in amod>other acl>[related nmod:to>[book case>to det>the punct>-LRB- dep>e.g. punct>,] xcomp>[writing dobj>[report det>a]]]]]]] ccomp>review ccomp>give punct>-RRB- punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+One		CD		NUMBER
+teacher		NN		O
+used		VBN		O
+story		NN		O
+kits		NNS		O
+to		TO		O
+help		VB		O
+Jerry		NNP		PERSON
+Joe		NNP		PERSON
+,		,		O
+a		DT		O
+student		NN		O
+with		IN		O
+Down		NN		O
+syndrome		NN		O
+,		,		O
+understand		VB		O
+and		CC		O
+remember		VB		O
+the		DT		O
+books		NNS		O
+studied		VBN		O
+in		IN		O
+class		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP
+      (NP (CD One) (NN teacher))
+      (VP (VBN used)
+        (NP (NN story) (NNS kits))
+        (S
+          (VP (TO to)
+            (VP (VB help)
+              (S
+                (NP
+                  (NP (NNP Jerry) (NNP Joe))
+                  (, ,)
+                  (NP
+                    (NP (DT a) (NN student))
+                    (PP (IN with)
+                      (NP (NN Down) (NN syndrome))))
+                  (, ,))
+                (VP (VB understand)
+                  (CC and)
+                  (VB remember)
+                  (NP (DT the) (NNS books)))))))))
+    (VP (VBN studied)
+      (PP (IN in)
+        (NP (NN class))))
     (. .)))
 
 ===========result of graph===========
-[executed nsubjpass>[body det>The compound>loop] auxpass>is punct>`` nmod:for>[values case>for punct>'' det>the amod>given nmod:of>[variable case>of det>the compound>loop punct>, dep>[explicit mark>though nsubj>this cop>is advmod>more nmod:in>[version case>in det>the compound>ALGOL nmod:of>[statement case>of det>the punct>, acl:relcl>[specified nmod:in>[which case>in] nsubjpass>[list det>a nmod:of>[values case>of amod>possible cc>and/or conj:and/or>increments] nmod:of>increments] aux>can auxpass>be]]]]]] punct>.]
+[studied nsubj>[teacher nummod>One acl>[used dobj>[kits compound>story] advcl>[help mark>to ccomp>[understand nsubj>[Joe compound>Jerry punct>, appos>[student det>a nmod:with>[syndrome case>with compound>Down]] punct>,] cc>and conj:and>[remember nsubj>Joe] dobj>[books det>the]] ccomp>remember]]] nmod:in>[class case>in] punct>.]
 ===========Pos and Ner tag===========
 word		pos		ne
-In		IN		O
-FORTRAN		NN		O
-and		CC		O
-PL/I		NN		O
-though		RB		O
-,		,		O
+When		WRB		O
 the		DT		O
-keyword		JJ		O
-DO		NN		O
-is		VBZ		O
-used		VBN		O
-and		CC		O
-it		PRP		O
-is		VBZ		O
-called		VBN		O
-a		DT		O
-do-loop		JJ		O
+class		NN		O
+read		VBD		O
+The		DT		O
+Summer		NN		DATE
+of		IN		O
+the		DT		O
+Swans		NNS		O
+-LRB-		-LRB-		O
+Byars		NNS		PERSON
 ,		,		O
+1981		CD		DATE
+-RRB-		-RRB-		O
+the		DT		O
+teacher		NN		O
+asked		VBD		O
+the		DT		O
+class		NN		O
+to		TO		O
+participate		VB		O
+in		IN		O
+creating		VBG		O
+a		DT		O
+story		NN		O
+kit		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN class))
+        (VP (VBD read)
+          (NP
+            (NP (DT The) (NN Summer))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS Swans))
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNS Byars))
+                    (, ,)
+                    (NP (CD 1981)))
+                  (-RRB- -RRB-))))))))
+    (NP (DT the) (NN teacher))
+    (VP (VBD asked)
+      (NP (DT the) (NN class)
+        (S
+          (VP (TO to)
+            (VP (VB participate)
+              (PP (IN in)
+                (S
+                  (VP (VBG creating)
+                    (NP (DT a) (NN story) (NN kit))))))))))
+    (. .)))
+
+===========result of graph===========
+[asked advcl>[read advmod>When nsubj>[class det>the] dobj>[Summer det>The nmod:of>[Swans case>of det>the dep>[Byars punct>-LRB- punct>, amod>1981 punct>-RRB-]]]] nsubj>[teacher det>the] dobj>[class det>the acl>[participate mark>to advcl>[creating mark>in dobj>[kit det>a compound>story]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+The		DT		O
+kit		NN		O
+consisted		VBD		O
+of		IN		O
+a		DT		O
+watch		NN		O
+,		,		O
+a		DT		O
+small		JJ		O
+plastic		NN		O
+boy		NN		O
+and		CC		O
+girl		NN		O
+,		,		O
+some		DT		O
+white		JJ		O
+feathers		NNS		O
+,		,		O
+a		DT		O
+pair		NN		O
+of		IN		O
+sneakers		NNS		O
+,		,		O
+and		CC		O
+a		DT		O
+map		NN		O
+of		IN		O
+the		DT		O
+Blue		NNP		LOCATION
+Ridge		NNP		LOCATION
+Mountains		NNS		LOCATION
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT The) (NN kit))
+    (VP (VBD consisted)
+      (PP (IN of)
+        (NP
+          (NP (DT a) (NN watch))
+          (, ,)
+          (NP (DT a) (JJ small) (NN plastic) (NN boy)
+            (CC and)
+            (NN girl))
+          (, ,)
+          (NP (DT some) (JJ white) (NNS feathers))
+          (, ,)
+          (NP
+            (NP (DT a) (NN pair))
+            (PP (IN of)
+              (NP (NNS sneakers))))
+          (, ,)
+          (CC and)
+          (NP
+            (NP (DT a) (NN map))
+            (PP (IN of)
+              (NP (DT the) (NNP Blue) (NNP Ridge) (NNS Mountains)))))))
+    (. .)))
+
+===========result of graph===========
+[consisted nsubj>[kit det>The] nmod:of>[watch case>of det>a punct>, conj:and>[boy det>a amod>small compound>plastic cc>and conj:and>girl] conj:and>girl punct>, conj:and>[feathers det>some amod>white] punct>, conj:and>[pair det>a nmod:of>[sneakers case>of]] punct>, cc>and conj:and>[map det>a nmod:of>[Mountains case>of det>the compound>Blue compound>Ridge]]] nmod:of>boy nmod:of>feathers nmod:of>pair nmod:of>map punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+It		PRP		O
+was		VBD		O
+used		VBN		O
+by		IN		O
+Jerry		NNP		PERSON
+Joe		NNP		PERSON
+when		WRB		O
+he		PRP		O
+was		VBD		O
+doing		VBG		O
+a		DT		O
+retelling		NN		O
+of		IN		O
+the		DT		O
+story		NN		O
+to		TO		O
+his		PRP$		O
+speech		NN		O
+therapist		NN		O
 but		CC		O
 it		PRP		O
-is		VBZ		O
-otherwise		RB		O
-identical		JJ		O
+was		VBD		O
+also		RB		O
+used		VBN		O
+by		IN		O
+other		JJ		O
+students		NNS		O
+as		IN		O
+they		PRP		O
+engaged		VBD		O
+in		IN		O
+activities		NNS		O
+related		VBN		O
 to		TO		O
 the		DT		O
-for-loop		JJ		O
-described		VBN		O
-here		RB		O
-and		CC		O
-is		VBZ		O
-not		RB		O
-to		TO		O
-be		VB		O
-confused		VBN		O
-with		IN		O
-the		DT		O
-do-while		JJ		O
-loop		NN		O
+story		NN		O
 .		.		O
 ===========result of tree===========
 (ROOT
   (S
     (S
-      (PP (IN In)
-        (NP (NN FORTRAN)
-          (CC and)
-          (NN PL/I)))
-      (S
-        (ADVP (RB though))
-        (, ,)
-        (NP (DT the) (JJ keyword) (NN DO))
-        (VP (VBZ is)
-          (VP (VBN used))))
-      (CC and)
-      (S
-        (NP (PRP it))
-        (VP (VBZ is)
-          (VP (VBN called)
-            (NP (DT a) (JJ do-loop))))))
-    (, ,)
+      (NP (PRP It))
+      (VP (VBD was)
+        (VP (VBN used)
+          (PP (IN by)
+            (NP
+              (NP (NNP Jerry) (NNP Joe))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP he))
+                  (VP (VBD was)
+                    (VP (VBG doing)
+                      (NP
+                        (NP (DT a) (NN retelling))
+                        (PP (IN of)
+                          (NP (DT the) (NN story))))
+                      (PP (TO to)
+                        (NP (PRP$ his) (NN speech) (NN therapist))))))))))))
     (CC but)
     (S
       (NP (PRP it))
-      (VP
-        (VP (VBZ is)
-          (ADJP (RB otherwise) (JJ identical)
-            (PP (TO to)
-              (NP
-                (NP (DT the) (JJ for-loop))
-                (VP (VBN described)
-                  (ADVP (RB here)))))))
-        (CC and)
-        (VP (VBZ is)
-          (ADJP (RB not)
+      (VP (VBD was)
+        (ADVP (RB also))
+        (VP (VBN used)
+          (PP (IN by)
+            (NP (JJ other) (NNS students)))
+          (SBAR (IN as)
             (S
-              (VP (TO to)
-                (VP (VB be)
-                  (VP (VBN confused)
-                    (PP (IN with)
-                      (NP (DT the) (JJ do-while) (NN loop)))))))))))
+              (NP (PRP they))
+              (VP (VBD engaged)
+                (PP (IN in)
+                  (NP
+                    (NP (NNS activities))
+                    (VP (VBN related)
+                      (PP (TO to)
+                        (NP (DT the) (NN story))))))))))))
     (. .)))
 
 ===========result of graph===========
-[used nmod:in>[FORTRAN case>In cc>and conj:and>PL/I] nmod:in>PL/I advmod>though punct>, nsubjpass>[DO det>the amod>keyword] auxpass>is cc>and conj:and>[called nsubjpass>it auxpass>is dobj>[do-loop det>a]] punct>, cc>but conj:and>[identical nsubj>it cop>is advmod>otherwise nmod:to>[for-loop case>to det>the acl>[described advmod>here]] cc>and conj:and>[not cop>is xcomp>[confused mark>to auxpass>be nmod:with>[loop case>with det>the amod>do-while]]]] conj:and>not punct>.]
+[used nsubjpass>It auxpass>was nmod:agent>[Joe case>by compound>Jerry acl:relcl>[doing advmod>when nsubj>he aux>was dobj>[retelling det>a nmod:of>[story case>of det>the]] nmod:to>[therapist case>to nmod:poss>his compound>speech]]] cc>but conj:but>[used nsubjpass>it auxpass>was advmod>also nmod:agent>[students case>by amod>other] advcl>[engaged mark>as nsubj>they nmod:in>[activities case>in acl>[related nmod:to>[story case>to det>the]]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+For		IN		O
+instance		NN		O
+,		,		O
+the		DT		O
+teacher		NN		O
+asked		VBD		O
+small		JJ		O
+groups		NNS		O
+of		IN		O
+students		NNS		O
+to		TO		O
+write		VB		O
+``		``		O
+what		WP		O
+happens		VBZ		O
+next		JJ		O
+''		''		O
+stories		NNS		O
+detailing		VBG		O
+some		DT		O
+event		NN		O
+or		CC		O
+situation		NN		O
+that		IN		O
+they		PRP		O
+imagined		VBD		O
+happening		VBG		O
+to		TO		O
+the		DT		O
+characters		NNS		O
+beyond		IN		O
+the		DT		O
+ending		NN		O
+of		IN		O
+the		DT		O
+book		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (NN instance)))
+    (, ,)
+    (NP (DT the) (NN teacher))
+    (VP (VBD asked)
+      (NP
+        (NP (JJ small) (NNS groups))
+        (PP (IN of)
+          (NP (NNS students))))
+      (S
+        (VP (TO to)
+          (VP (VB write)
+            (SBAR (`` ``)
+              (WHNP (WP what))
+              (S
+                (VP (VBZ happens)
+                  (NP
+                    (NP (JJ next) ('' '') (NNS stories))
+                    (VP (VBG detailing)
+                      (NP (DT some) (NN event)
+                        (CC or)
+                        (NN situation))
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP they))
+                          (VP (VBD imagined)
+                            (S
+                              (VP (VBG happening)
+                                (PP (TO to)
+                                  (NP (DT the) (NNS characters)))
+                                (PP (IN beyond)
+                                  (NP
+                                    (NP (DT the) (NN ending))
+                                    (PP (IN of)
+                                      (NP (DT the) (NN book)))))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[asked nmod:for>[instance case>For] punct>, nsubj>[teacher det>the] dobj>[groups amod>small nmod:of>[students case>of]] xcomp>[write mark>to ccomp>[happens punct>`` nsubj>what dobj>[stories amod>next punct>'' acl>[detailing dobj>[event det>some cc>or conj:or>situation] dobj>situation ccomp>[imagined mark>that nsubj>they xcomp>[happening nmod:to>[characters case>to det>the] nmod:beyond>[ending case>beyond det>the nmod:of>[book case>of det>the]]]]]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+When		WRB		O
+students		NNS		O
+wrote		VBD		O
+these		DT		O
+stories		NNS		O
+,		,		O
+the		DT		O
+teacher		NN		O
+put		VBD		O
+all		DT		O
+of		IN		O
+the		DT		O
+story		NN		O
+kit		NN		O
+objects		NNS		O
+on		IN		O
+a		DT		O
+table		NN		O
+in		IN		O
+front		NN		O
+of		IN		O
+the		DT		O
+room		NN		O
+so		RB		O
+students		NNS		O
+could		MD		O
+better		RB		O
+recall		VB		O
+details		NNS		O
+from		IN		O
+the		DT		O
+book		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNS students))
+        (VP (VBD wrote)
+          (NP (DT these) (NNS stories)))))
+    (, ,)
+    (NP (DT the) (NN teacher))
+    (VP (VBD put)
+      (NP
+        (NP (DT all))
+        (PP (IN of)
+          (NP (DT the) (NN story) (NN kit) (NNS objects))))
+      (PP (IN on)
+        (NP
+          (NP (DT a) (NN table))
+          (PP (IN in)
+            (NP
+              (NP (NN front))
+              (PP (IN of)
+                (NP (DT the) (NN room)))))))
+      (SBAR (RB so)
+        (S
+          (NP (NNS students))
+          (VP (MD could)
+            (ADVP (RB better))
+            (VP (VB recall)
+              (NP (NNS details))
+              (PP (IN from)
+                (NP (DT the) (NN book))))))))
+    (. .)))
+
+===========result of graph===========
+[put advcl>[wrote advmod>When nsubj>students dobj>[stories det>these]] punct>, nsubj>[teacher det>the] dobj>[all nmod:of>[objects case>of det>the compound>story compound>kit]] nmod:on>[table case>on det>a nmod:in_front_of>[room case>[in mwe>front mwe>of] det>the]] dep>[recall advmod>so nsubj>students aux>could advmod>better dobj>details nmod:from>[book case>from det>the]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Teachers		NNPS		O
+should		MD		O
+also		RB		O
+,		,		O
+of		IN		O
+course		NN		O
+,		,		O
+include		VBP		O
+one		CD		NUMBER
+or		CC		O
+two		CD		NUMBER
+copies		NNS		O
+of		IN		O
+the		DT		O
+book		NN		O
+or		CC		O
+story		NN		O
+in		IN		O
+the		DT		O
+kit		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNPS Teachers))
+    (VP (MD should)
+      (ADVP
+        (ADVP (RB also))
+        (PRN (, ,)
+          (PP (IN of)
+            (NP (NN course)))
+          (, ,)))
+      (VP (VBP include)
+        (NP
+          (NP (CD one)
+            (CC or)
+            (CD two) (NNS copies))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN book)
+                (CC or)
+                (NN story))
+              (PP (IN in)
+                (NP (DT the) (NN kit))))))))
+    (. .)))
+
+===========result of graph===========
+[include nsubj>Teachers aux>should advmod>[also dep>[course punct>, case>of punct>,]] dobj>[copies compound>[one cc>or conj:or>two] compound>two nmod:of>[book case>of det>the cc>or conj:or>story nmod:in>[kit case>in det>the]] nmod:of>story] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+At		IN		O
+least		JJS		O
+one		CD		NUMBER
+copy		NN		O
+can		MD		O
+be		VB		O
+adapted		VBN		O
+for		IN		O
+particular		JJ		O
+learners		NNS		O
+with		IN		O
+disabilities		NNS		O
+-LRB-		-LRB-		O
+Downing		NNP		O
+,		,		O
+2005		CD		DATE
+-RRB-		-RRB-		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP
+      (QP (IN At) (JJS least) (CD one))
+      (NN copy))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN adapted)
+          (PP (IN for)
+            (NP (JJ particular) (NNS learners)))
+          (PP (IN with)
+            (NP
+              (NP (NNS disabilities))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Downing))
+                (, ,)
+                (NP (CD 2005))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+===========result of graph===========
+[adapted nsubjpass>[copy nummod>[one nmod:npmod>[least case>At]]] aux>can auxpass>be nmod:for>[learners case>for amod>particular] nmod:with>[disabilities case>with appos>[Downing punct>-LRB- punct>, dep>2005 punct>-RRB-]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Some		DT		O
+students		NNS		O
+may		MD		O
+profit		VB		O
+from		IN		O
+a		DT		O
+tactile		JJ		O
+book		NN		O
+with		IN		O
+added		VBN		O
+textures		NNS		O
+or		CC		O
+objects		NNS		O
+while		IN		O
+others		NNS		O
+may		MD		O
+need		VB		O
+large-print		JJ		O
+versions		NNS		O
+of		IN		O
+the		DT		O
+text		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT Some) (NNS students))
+    (VP (MD may)
+      (VP (VB profit)
+        (PP (IN from)
+          (NP
+            (NP (DT a) (JJ tactile) (NN book))
+            (PP (IN with)
+              (NP (VBN added) (NNS textures)
+                (CC or)
+                (NNS objects)))))
+        (SBAR (IN while)
+          (S
+            (NP (NNS others))
+            (VP (MD may)
+              (VP (VB need)
+                (NP
+                  (NP (JJ large-print) (NNS versions))
+                  (PP (IN of)
+                    (NP (DT the) (NN text))))))))))
+    (. .)))
+
+===========result of graph===========
+[profit nsubj>[students det>Some] aux>may nmod:from>[book case>from det>a amod>tactile nmod:with>[textures case>with amod>added cc>or conj:or>objects] nmod:with>objects] advcl>[need mark>while nsubj>others aux>may dobj>[versions amod>large-print nmod:of>[text case>of det>the]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Still		RB		O
+others		NNS		O
+may		MD		O
+need		VB		O
+additional		JJ		O
+teacher		NN		O
+or		CC		O
+student-generated		JJ		O
+graphics		NNS		O
+if		IN		O
+the		DT		O
+text		NN		O
+has		VBZ		O
+few		JJ		O
+or		CC		O
+no		DT		O
+illustrations		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (ADVP (RB Still))
+    (NP (NNS others))
+    (VP (MD may)
+      (VP (VB need)
+        (NP (JJ additional) (NN teacher)
+          (CC or)
+          (JJ student-generated) (NNS graphics))
+        (SBAR (IN if)
+          (S
+            (NP (DT the) (NN text))
+            (VP (VBZ has)
+              (NP
+                (ADJP (JJ few)
+                  (CC or)
+                  (DT no))
+                (NNS illustrations)))))))
+    (. .)))
+
+===========result of graph===========
+[need advmod>Still nsubj>others aux>may dobj>[teacher amod>additional cc>or conj:or>[graphics amod>student-generated]] dobj>graphics advcl>[has mark>if nsubj>[text det>the] dobj>[illustrations amod>[few cc>or conj:or>no] amod>no]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Visual		JJ		O
+notes		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (FRAG
+    (NP (JJ Visual) (NNS notes))
+    (. .)))
+
+===========result of graph===========
+[notes amod>Visual punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Drawing		VBG		O
+or		CC		O
+visual		JJ		O
+note		NN		O
+taking		VBG		O
+is		VBZ		O
+another		DT		O
+strategy		NN		O
+that		IN		O
+learners		NNS		O
+can		MD		O
+use		VB		O
+and		CC		O
+teachers		NNS		O
+can		MD		O
+teach		VB		O
+in		IN		O
+order		NN		O
+to		TO		O
+boost		VB		O
+the		DT		O
+literacy		NN		O
+learning		NN		O
+of		IN		O
+students		NNS		O
+with		IN		O
+disabilities		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (VP (VBG Drawing)))
+    (CC or)
+    (S
+      (NP
+        (NP (JJ visual) (NN note))
+        (VP (VBG taking)))
+      (VP (VBZ is)
+        (NP (DT another) (NN strategy))
+        (SBAR (IN that)
+          (S
+            (S
+              (NP (NNS learners))
+              (VP (MD can)
+                (VP (VB use))))
+            (CC and)
+            (S
+              (NP (NNS teachers))
+              (VP (MD can)
+                (VP (VB teach)
+                  (SBAR (IN in) (NN order)
+                    (S
+                      (VP (TO to)
+                        (VP (VB boost)
+                          (NP
+                            (NP (DT the) (NN literacy) (NN learning))
+                            (PP (IN of)
+                              (NP (NNS students))))
+                          (PP (IN with)
+                            (NP (NNS disabilities))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[Drawing cc>or conj:or>[strategy nsubj>[note amod>visual acl>taking] cop>is det>another ccomp>[use mark>that nsubj>learners aux>can cc>and conj:and>[teach nsubj>teachers aux>can advcl>[boost mark>[in mwe>order] mark>to dobj>[learning det>the compound>literacy nmod:of>[students case>of]] nmod:with>[disabilities case>with]]]] ccomp>teach] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Modeling		NN		O
+,		,		O
+teaching		NN		O
+,		,		O
+and		CC		O
+encouraging		VBG		O
+this		DT		O
+strategy		NN		O
+is		VBZ		O
+a		DT		O
+way		NN		O
+to		TO		O
+demonstrate		VB		O
+that		IN		O
+there		EX		O
+are		VBP		O
+many		JJ		O
+different		JJ		O
+ways		NNS		O
+to		TO		O
+represent		VB		O
+information		NN		O
+while		IN		O
+giving		VBG		O
+struggling		VBG		O
+readers		NNS		O
+a		DT		O
+way		NN		O
+to		TO		O
+share		VB		O
+their		PRP$		O
+understanding		NN		O
+of		IN		O
+a		DT		O
+text		NN		O
+,		,		O
+tell		VBP		O
+a		DT		O
+story		NN		O
+,		,		O
+or		CC		O
+organize		VB		O
+information		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NN Modeling))
+    (, ,)
+    (S
+      (UCP
+        (NP (NN teaching))
+        (, ,)
+        (CC and)
+        (VP (VBG encouraging)
+          (NP (DT this) (NN strategy)))))
+    (VP (VBZ is)
+      (NP (DT a) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB demonstrate)
+              (SBAR (IN that)
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (JJ many) (JJ different) (NNS ways))
+                      (SBAR
+                        (S
+                          (VP (TO to)
+                            (VP
+                              (VP (VB represent)
+                                (NP (NN information))
+                                (SBAR (IN while)
+                                  (S
+                                    (S
+                                      (VP (VBG giving)
+                                        (S
+                                          (VP (VBG struggling)
+                                            (NP
+                                              (NP (NNS readers))
+                                              (NP (DT a) (NN way)))
+                                            (S
+                                              (VP (TO to)
+                                                (VP (VB share)
+                                                  (NP
+                                                    (NP (PRP$ their) (NN understanding))
+                                                    (PP (IN of)
+                                                      (NP (DT a) (NN text)))))))))))
+                                    (, ,)
+                                    (VP (VBP tell)
+                                      (NP (DT a) (NN story))))))
+                              (, ,)
+                              (CC or)
+                              (VP (VB organize)
+                                (NP (NN information))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[way nsubj>Modeling punct>, dep>[teaching punct>, cc>and acl>[encouraging dobj>[strategy det>this]]] cop>is det>a acl>[demonstrate mark>to ccomp>[are mark>that expl>there nsubj>[ways amod>many amod>different acl>[represent mark>to dobj>information advcl>[tell mark>while dep>[giving advcl>[struggling dobj>[readers dep>[way det>a]] advcl>[share mark>to dobj>[understanding nmod:poss>their nmod:of>[text case>of det>a]]]]] punct>, dobj>[story det>a]] punct>, cc>or conj:or>[organize dobj>information]] acl>organize]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Students		NNS		O
+can		MD		O
+be		VB		O
+encouraged		VBN		O
+and		CC		O
+taught		VBN		O
+to		TO		O
+use		VB		O
+visual		JJ		O
+notes		NNS		O
+in		IN		O
+a		DT		O
+variety		NN		O
+of		IN		O
+ways		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NNS Students))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN encouraged)
+          (CC and)
+          (VBN taught)
+          (S
+            (VP (TO to)
+              (VP (VB use)
+                (NP (JJ visual) (NNS notes))
+                (PP (IN in)
+                  (NP
+                    (NP (DT a) (NN variety))
+                    (PP (IN of)
+                      (NP (NNS ways)))))))))))
+    (. .)))
+
+===========result of graph===========
+[encouraged nsubjpass>Students aux>can auxpass>be cc>and conj:and>[taught nsubjpass>Students] xcomp>[use mark>to dobj>[notes amod>visual] nmod:in>[variety case>in det>a nmod:of>[ways case>of]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+One		CD		NUMBER
+teacher		NN		O
+simply		RB		O
+told		VBD		O
+her		PRP$		O
+students		NNS		O
+to		TO		O
+take		VB		O
+notes		NNS		O
+as		IN		O
+they		PRP		O
+always		RB		O
+had		VBD		O
+but		CC		O
+to		TO		O
+add		VB		O
+``		``		O
+pictures		NNS		O
+,		,		O
+diagrams		NNS		O
+,		,		O
+doodles		NNS		O
+,		,		O
+patterns		NNS		O
+,		,		O
+or		CC		O
+charts		NNS		O
+''		''		O
+in		IN		O
+the		DT		O
+margins		NNS		O
+or		CC		O
+in		IN		O
+the		DT		O
+actual		JJ		O
+body		NN		O
+of		IN		O
+the		DT		O
+notes		NNS		O
+to		TO		O
+emphasize		VB		O
+points		NNS		O
+,		,		O
+elaborate		VB		O
+on		IN		O
+an		DT		O
+idea		NN		O
+,		,		O
+or		CC		O
+to		TO		O
+make		VB		O
+the		DT		O
+content		NN		O
+memorable		JJ		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (CD One) (NN teacher))
+    (ADVP (RB simply))
+    (VP (VBD told)
+      (NP (PRP$ her) (NNS students))
+      (S
+        (VP (TO to)
+          (VP (VB take)
+            (NP (NNS notes))
+            (SBAR (IN as)
+              (S
+                (NP (PRP they))
+                (ADVP (RB always))
+                (VP (VBD had)
+                  (S
+                    (VP (CC but)
+                      (VP (TO to)
+                        (VP (VB add)
+                          (S
+                            (NP (`` ``)
+                              (NP (NNS pictures))
+                              (, ,)
+                              (NP (NNS diagrams))
+                              (, ,)
+                              (NP (NNS doodles))
+                              (, ,)
+                              (NP (NNS patterns))
+                              (, ,)
+                              (CC or)
+                              (NP (NNS charts))
+                              ('' '')
+                              (PP
+                                (PP (IN in)
+                                  (NP (DT the) (NNS margins)))
+                                (CC or)
+                                (PP (IN in)
+                                  (NP
+                                    (NP (DT the) (JJ actual) (NN body))
+                                    (PP (IN of)
+                                      (NP (DT the) (NNS notes)))))))
+                            (VP (TO to)
+                              (VP (VB emphasize)
+                                (NP (NNS points)))))
+                          (PRN (, ,)
+                            (S
+                              (VP (VB elaborate)
+                                (PP (IN on)
+                                  (NP (DT an) (NN idea)))))
+                            (, ,))))
+                      (CC or)
+                      (VP (TO to)
+                        (VP (VB make)
+                          (S
+                            (NP (DT the) (NN content))
+                            (ADJP (JJ memorable))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[told nsubj>[teacher nummod>One] advmod>simply dobj>[students nmod:poss>her] xcomp>[take mark>to dobj>notes advcl>[had mark>as nsubj>they advmod>always ccomp>[add cc>but mark>to dobj>[pictures punct>`` punct>, conj:or>diagrams punct>, conj:or>doodles punct>, conj:or>patterns punct>, cc>or conj:or>charts punct>'' conj:or>[margins case>in det>the cc>or conj:or>[body case>in det>the amod>actual nmod:of>[notes case>of det>the]]] conj:or>body] dobj>diagrams dobj>doodles dobj>patterns dobj>charts dobj>margins xcomp>[emphasize mark>to dobj>points] parataxis>[elaborate punct>, nmod:on>[idea case>on det>an] punct>,] cc>or conj:or>[make mark>to xcomp>[memorable nsubj>[content det>the]]]] ccomp>make]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Another		DT		O
+teacher		NN		O
+showed		VBD		O
+a		DT		O
+student		NN		O
+with		IN		O
+physical		JJ		O
+disabilities		NNS		O
+and		CC		O
+limited		JJ		O
+mobility		NN		O
+how		WRB		O
+to		TO		O
+take		VB		O
+visual		JJ		O
+notes		NNS		O
+using		VBG		O
+the		DT		O
+computer		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT Another) (NN teacher))
+    (VP (VBD showed)
+      (NP (DT a) (NN student))
+      (PP (IN with)
+        (NP
+          (NP (JJ physical) (NNS disabilities))
+          (CC and)
+          (NP (JJ limited) (NN mobility))))
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (VP (TO to)
+            (VP (VB take)
+              (NP (JJ visual) (NNS notes))
+              (S
+                (VP (VBG using)
+                  (NP (DT the) (NN computer)))))))))
+    (. .)))
+
+===========result of graph===========
+[showed nsubj>[teacher det>Another] dobj>[student det>a] nmod:with>[disabilities case>with amod>physical cc>and conj:and>[mobility amod>limited]] nmod:with>mobility xcomp>[take advmod>how mark>to dobj>[notes amod>visual] xcomp>[using dobj>[computer det>the]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+After		IN		O
+reading		VBG		O
+Of		IN		O
+Mice		NNS		O
+and		CC		O
+Men		NN		O
+-LRB-		-LRB-		O
+Steinback		NN		PERSON
+,		,		O
+1937		CD		DATE
+-RRB-		-RRB-		O
+,		,		O
+the		DT		O
+student		NN		O
+searched		VBD		O
+the		DT		O
+web		NN		O
+for		IN		O
+images		NNS		O
+of		IN		O
+men		NNS		O
+working		VBG		O
+on		IN		O
+ranches		NNS		O
+,		,		O
+a		DT		O
+gun		NN		O
+,		,		O
+rabbits		NNS		O
+in		IN		O
+a		DT		O
+hutch		NN		O
+,		,		O
+and		CC		O
+a		DT		O
+farm		NN		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG reading)
+          (PP (IN Of)
+            (NP
+              (NP (NNS Mice)
+                (CC and)
+                (NN Men))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (NN Steinback))
+                  (, ,)
+                  (NP (CD 1937)))
+                (-RRB- -RRB-)))))))
+    (, ,)
+    (NP (DT the) (NN student))
+    (VP (VBD searched)
+      (NP
+        (NP (DT the) (NN web))
+        (PP (IN for)
+          (NP
+            (NP (NNS images))
+            (PP (IN of)
+              (NP
+                (NP (NNS men))
+                (VP (VBG working)
+                  (PP (IN on)
+                    (NP
+                      (NP (NNS ranches))
+                      (, ,)
+                      (NP (DT a) (NN gun))
+                      (, ,)
+                      (NP
+                        (NP (NNS rabbits))
+                        (PP (IN in)
+                          (NP (DT a) (NN hutch))))
+                      (, ,)
+                      (CC and)
+                      (NP (DT a) (NN farm)))))))))))
+    (. .)))
+
+===========result of graph===========
+[searched advcl>[reading mark>After nmod:of>[Mice case>Of cc>and conj:and>Men dep>[Steinback punct>-LRB- punct>, amod>1937 punct>-RRB-]] nmod:of>Men] punct>, nsubj>[student det>the] dobj>[web det>the nmod:for>[images case>for nmod:of>[men case>of acl>[working nmod:on>[ranches case>on punct>, conj:and>[gun det>a] punct>, conj:and>[rabbits nmod:in>[hutch case>in det>a]] punct>, cc>and conj:and>[farm det>a]] nmod:on>gun nmod:on>rabbits nmod:on>farm]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+He		PRP		O
+then		RB		O
+assembled		VBD		O
+these		DT		O
+images		NNS		O
+and		CC		O
+some		DT		O
+simple		JJ		O
+text		NN		O
+into		IN		O
+a		DT		O
+PowerPoint		NNP		O
+presentation		NN		O
+that		IN		O
+he		PRP		O
+shared		VBD		O
+with		IN		O
+classmates		NNS		O
+and		CC		O
+used		VBN		O
+to		TO		O
+answer		VB		O
+questions		NNS		O
+posed		VBN		O
+by		IN		O
+his		PRP$		O
+teachers		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB then))
+    (VP (VBD assembled)
+      (NP
+        (NP (DT these) (NNS images))
+        (CC and)
+        (NP (DT some) (JJ simple) (NN text)))
+      (PP (IN into)
+        (NP (DT a) (NNP PowerPoint) (NN presentation)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP
+            (VP (VBD shared)
+              (PP (IN with)
+                (NP (NNS classmates))))
+            (CC and)
+            (VP (VBN used)
+              (S
+                (VP (TO to)
+                  (VP (VB answer)
+                    (NP
+                      (NP (NNS questions))
+                      (VP (VBN posed)
+                        (PP (IN by)
+                          (NP (PRP$ his) (NNS teachers)))))))))))))
+    (. .)))
+
+===========result of graph===========
+[assembled nsubj>He advmod>then dobj>[images det>these cc>and conj:and>[text det>some amod>simple]] dobj>text nmod:into>[presentation case>into det>a compound>PowerPoint] ccomp>[shared mark>that nsubj>he nmod:with>[classmates case>with] cc>and conj:and>[used nsubj>he xcomp>[answer mark>to dobj>[questions acl>[posed nmod:by>[teachers case>by nmod:poss>his]]]]]] ccomp>used punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Conclusions		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (NP (NNS Conclusions) (. .)))
+
+===========result of graph===========
+[Conclusions punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Making		VBG		O
+greater		JJR		O
+use		NN		O
+of		IN		O
+visual		JJ		O
+supports		NNS		O
+is		VBZ		O
+just		RB		O
+one		CD		NUMBER
+way		NN		O
+that		IN		O
+effective		JJ		O
+teachers		NNS		O
+are		VBP		O
+meeting		VBG		O
+the		DT		O
+needs		NNS		O
+of		IN		O
+a		DT		O
+wider		JJR		O
+range		NN		O
+of		IN		O
+learners		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (VP (VBG Making)
+        (NP
+          (NP (JJR greater) (NN use))
+          (PP (IN of)
+            (NP (JJ visual) (NNS supports))))))
+    (VP (VBZ is)
+      (NP (RB just) (CD one) (NN way))
+      (SBAR (IN that)
+        (S
+          (NP (JJ effective) (NNS teachers))
+          (VP (VBP are)
+            (VP (VBG meeting)
+              (NP
+                (NP (DT the) (NNS needs))
+                (PP (IN of)
+                  (NP
+                    (NP (DT a) (JJR wider) (NN range))
+                    (PP (IN of)
+                      (NP (NNS learners)))))))))))
+    (. .)))
+
+===========result of graph===========
+[way csubj>[Making dobj>[use amod>greater nmod:of>[supports case>of amod>visual]]] cop>is advmod>just nummod>one ccomp>[meeting mark>that nsubj>[teachers amod>effective] aux>are dobj>[needs det>the nmod:of>[range case>of det>a amod>wider nmod:of>[learners case>of]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Each		DT		O
+of		IN		O
+these		DT		O
+strategies		NNS		O
+can		MD		O
+certainly		RB		O
+be		VB		O
+used		VBN		O
+for		IN		O
+students		NNS		O
+without		IN		O
+disabilities		NNS		O
+in		IN		O
+inclusive		JJ		O
+classrooms		NNS		O
+but		CC		O
+they		PRP		O
+may		MD		O
+have		VB		O
+the		DT		O
+most		RBS		O
+impact		VB		O
+on		IN		O
+those		DT		O
+learners		NNS		O
+who		WP		O
+can		MD		O
+not		RB		O
+learn		VB		O
+effectively		RB		O
+in		IN		O
+classrooms		NNS		O
+using		VBG		O
+traditional		JJ		O
+tools		NNS		O
+and		CC		O
+strategies		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT Each))
+        (PP (IN of)
+          (NP (DT these) (NNS strategies))))
+      (VP (MD can)
+        (ADVP (RB certainly))
+        (VP (VB be)
+          (VP (VBN used)
+            (PP (IN for)
+              (NP (NNS students)))
+            (PP (IN without)
+              (NP
+                (NP (NNS disabilities))
+                (PP (IN in)
+                  (NP (JJ inclusive) (NNS classrooms)))))))))
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (MD may)
+        (VP (VB have)
+          (NP (DT the) (RBS most))
+          (S
+            (VP (VB impact)
+              (PP (IN on)
+                (NP
+                  (NP (DT those) (NNS learners))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (MD can) (RB not)
+                        (VP (VB learn)
+                          (ADVP (RB effectively))
+                          (PP (IN in)
+                            (NP
+                              (NP (NNS classrooms))
+                              (VP (VBG using)
+                                (NP (JJ traditional) (NNS tools)
+                                  (CC and)
+                                  (NNS strategies))))))))))))))))
+    (. .)))
+
+===========result of graph===========
+[used nsubjpass>[Each nmod:of>[strategies case>of det>these]] aux>can advmod>certainly auxpass>be nmod:for>[students case>for] nmod:without>[disabilities case>without nmod:in>[classrooms case>in amod>inclusive]] cc>but conj:but>[have nsubj>they aux>may dobj>[the advmod>most] dep>[impact nmod:on>[learners case>on det>those acl:relcl>[learn nsubj>who aux>can neg>not advmod>effectively nmod:in>[classrooms case>in acl>[using dobj>[tools amod>traditional cc>and conj:and>strategies] dobj>strategies]]]]]] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+By		IN		O
+expanding		VBG		O
+the		DT		O
+strategies		NNS		O
+used		VBN		O
+in		IN		O
+the		DT		O
+classroom		NN		O
+and		CC		O
+specifically		RB		O
+by		IN		O
+expanding		VBG		O
+the		DT		O
+use		NN		O
+of		IN		O
+visual		JJ		O
+supports		NNS		O
+in		IN		O
+literacy		NN		O
+instruction		NN		O
+,		,		O
+teachers		NNS		O
+are		VBP		O
+sure		JJ		O
+to		TO		O
+reach		VB		O
+a		DT		O
+wider		JJR		O
+range		NN		O
+of		IN		O
+learners		NNS		O
+and		CC		O
+to		TO		O
+give		VB		O
+every		DT		O
+student		NN		O
+opportunities		NNS		O
+to		TO		O
+hone		VB		O
+their		PRP$		O
+skills		NNS		O
+as		IN		O
+writers		NNS		O
+and		CC		O
+readers		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (PP (IN By)
+      (S
+        (VP (VBG expanding)
+          (NP
+            (NP (DT the) (NNS strategies))
+            (VP (VBN used)
+              (PP
+                (PP (IN in)
+                  (NP (DT the) (NN classroom)))
+                (CC and)
+                (PP
+                  (ADVP (RB specifically))
+                  (IN by)
+                  (S
+                    (VP (VBG expanding)
+                      (NP
+                        (NP (DT the) (NN use))
+                        (PP (IN of)
+                          (NP (JJ visual) (NNS supports))))
+                      (PP (IN in)
+                        (NP (NN literacy) (NN instruction))))))))))))
+    (, ,)
+    (NP (NNS teachers))
+    (VP (VBP are)
+      (ADJP (JJ sure)
+        (S
+          (VP
+            (VP (TO to)
+              (VP (VB reach)
+                (NP
+                  (NP (DT a) (JJR wider) (NN range))
+                  (PP (IN of)
+                    (NP (NNS learners))))))
+            (CC and)
+            (VP (TO to)
+              (VP (VB give)
+                (NP (DT every) (NN student))
+                (NP (NNS opportunities)
+                  (S
+                    (VP (TO to)
+                      (VP (VB hone)
+                        (NP (PRP$ their) (NNS skills))
+                        (PP (IN as)
+                          (NP (NNS writers)
+                            (CC and)
+                            (NNS readers)))))))))))))
+    (. .)))
+
+===========result of graph===========
+[sure advcl>[expanding mark>By dobj>[strategies det>the acl>[used nmod:in>[classroom case>in det>the cc>and conj:and>[expanding advmod>specifically mark>by dobj>[use det>the nmod:of>[supports case>of amod>visual]] nmod:in>[instruction case>in compound>literacy]]] nmod:in>expanding]]] punct>, nsubj>teachers cop>are dep>[reach mark>to dobj>[range det>a amod>wider nmod:of>[learners case>of]] cc>and conj:and>[give mark>to iobj>[student det>every] dobj>[opportunities acl>[hone mark>to dobj>[skills nmod:poss>their] nmod:as>[writers case>as cc>and conj:and>readers] nmod:as>readers]]]] dep>give punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+This		DT		O
+article		NN		O
+is		VBZ		O
+from		IN		O
+the		DT		O
+website		NN		O
+of		IN		O
+Dr.		NNP		O
+Paula		NNP		PERSON
+Kluth		NNP		PERSON
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (DT This) (NN article))
+    (VP (VBZ is)
+      (PP (IN from)
+        (NP
+          (NP (DT the) (NN website))
+          (PP (IN of)
+            (NP (NNP Dr.) (NNP Paula) (NNP Kluth))))))
+    (. .)))
+
+===========result of graph===========
+[website nsubj>[article det>This] cop>is case>from det>the nmod:of>[Kluth case>of compound>Dr. compound>Paula] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+It		PRP		O
+,		,		O
+along		IN		O
+with		IN		O
+many		JJ		O
+others		NNS		O
+on		IN		O
+inclusive		JJ		O
+schooling		NN		O
+,		,		O
+differentiated		VBN		O
+instruction		NN		O
+,		,		O
+and		CC		O
+literacy		NN		O
+can		MD		O
+be		VB		O
+found		VBN		O
+at		IN		O
+www.PaulaKluth.com		NNP		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (PRP It))
+    (, ,)
+    (ADVP (IN along)
+      (PP (IN with)
+        (NP
+          (NP (JJ many) (NNS others))
+          (PP (IN on)
+            (NP
+              (NP
+                (NP (JJ inclusive) (NN schooling))
+                (, ,)
+                (VP (VBN differentiated)
+                  (NP (NN instruction)))
+                (, ,))
+              (CC and)
+              (NP (NN literacy)))))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (PP (IN at)
+            (NP (NNP www.PaulaKluth.com))))))
+    (. .)))
+
+===========result of graph===========
+[found nsubjpass>It punct>, advmod>[along nmod:with>[others case>with amod>many nmod:on>[schooling case>on amod>inclusive punct>, acl>[differentiated dobj>instruction] punct>, cc>and conj:and>literacy] nmod:on>literacy]] aux>can auxpass>be nmod:at>[www.PaulaKluth.com case>at] punct>.]
+===========Pos and Ner tag===========
+word		pos		ne
+Visit		NN		O
+now		RB		DATE
+to		TO		O
+read		VB		O
+her		PRP$		O
+Tip		NN		MISC
+of		IN		MISC
+the		DT		DATE
+Day		NN		DATE
+,		,		O
+read		VBD		O
+dozens		NNS		O
+of		IN		O
+free		JJ		O
+articles		NNS		O
+,		,		O
+and		CC		O
+learn		VB		O
+more		JJR		O
+about		IN		O
+supporting		VBG		O
+diverse		JJ		O
+learners		NNS		O
+in		IN		O
+K-12		NN		O
+classrooms		NNS		O
+.		.		O
+===========result of tree===========
+(ROOT
+  (S
+    (NP (NN Visit))
+    (ADVP (RB now))
+    (VP
+      (VP
+        (S
+          (VP (TO to)
+            (VP (VB read)
+              (NP
+                (NP (PRP$ her) (NN Tip))
+                (PP (IN of)
+                  (NP (DT the) (NN Day)))))))
+        (, ,)
+        (VP (VBD read)
+          (NP
+            (NP (NNS dozens))
+            (PP (IN of)
+              (NP (JJ free) (NNS articles))))))
+      (, ,)
+      (CC and)
+      (VP (VB learn)
+        (NP (JJR more))
+        (PP (IN about)
+          (S
+            (VP (VBG supporting)
+              (NP (JJ diverse) (NNS learners))
+              (PP (IN in)
+                (NP (NN K-12) (NNS classrooms))))))))
+    (. .)))
+
+===========result of graph===========
+[read nsubj>Visit advmod>now xcomp>[read mark>to dobj>[Tip nmod:poss>her nmod:of>[Day case>of det>the]]] punct>, dobj>[dozens nmod:of>[articles case>of amod>free]] punct>, cc>and conj:and>[learn nsubj>Visit dobj>more advcl>[supporting mark>about dobj>[learners amod>diverse] nmod:in>[classrooms case>in compound>K-12]]] punct>.]
 ===========result of map===========
-1, CHAIN1-["computer science" in sentence 1]
-2, CHAIN2-["a for-loop -LRB- or simply for loop -RRB-" in sentence 1]
-3, CHAIN3-["a control flow statement for specifying iteration , which allows code to be executed repeatedly" in sentence 1, "the statement" in sentence 10]
-4, CHAIN4-["iteration , which allows code to be executed repeatedly" in sentence 1]
-5, CHAIN5-["ALGOL" in sentence 2, "later ALGOL" in sentence 9]
-6, CHAIN6-["The syntax of a for-loop" in sentence 2, "it" in sentence 2]
-7, CHAIN7-["a for-loop" in sentence 2, "the for-loop" in sentence 4, "the for-loop" in sentence 5, "a for-loop" in sentence 8]
-8, CHAIN8-["the heritage of the language and the prior programming languages" in sentence 2]
-9, CHAIN9-["the language and the prior programming languages" in sentence 2]
-10, CHAIN10-["the language" in sentence 2]
-11, CHAIN11-["the prior programming languages" in sentence 2]
-13, CHAIN13-["programming languages that are descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
-14, CHAIN14-["descendants of or offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
-15, CHAIN15-["descendants of" in sentence 2, "descendants of ALGOL" in sentence 2, "descendants of Fortran" in sentence 2]
-16, CHAIN16-["offshoots of a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
-17, CHAIN17-["a language that originally provided an iterator will often use the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for '' , while descendants of Fortran use" in sentence 2]
-18, CHAIN18-["an iterator" in sentence 2, "an iterator , e.g. , descendants of ALGOL use" in sentence 2, "an iterator , e.g." in sentence 2, "an iterator" in sentence 2, "e.g." in sentence 2]
-19, CHAIN19-["the same keyword to name an iterator , e.g. , descendants of ALGOL use `` for ''" in sentence 2]
-26, CHAIN26-["Fortran" in sentence 2]
-27, CHAIN27-["other possibilities" in sentence 3]
-28, CHAIN28-["example COBOL which uses `` PERFORM VARYING ''" in sentence 3]
-29, CHAIN29-["PERFORM VARYING" in sentence 3]
-30, CHAIN30-["many other kinds of loops , such as the while-loop" in sentence 4]
-31, CHAIN31-["loops" in sentence 4, "loops" in sentence 7]
-32, CHAIN32-["the while-loop" in sentence 4]
-34, CHAIN34-["an explicit loop counter or loop variable" in sentence 4, "the loop variable" in sentence 10]
-35, CHAIN35-["This" in sentence 5]
-36, CHAIN36-["the body of the for-loop" in sentence 5]
-38, CHAIN38-["the code that is being repeatedly executed" in sentence 5]
-39, CHAIN39-["the sequencing of each iteration" in sentence 5]
-40, CHAIN40-["each iteration" in sentence 5]
-41, CHAIN41-["For-loops" in sentence 6, "For-loops" in sentence 7]
-42, CHAIN42-["the number of iterations" in sentence 6, "the number of iterations" in sentence 7]
-43, CHAIN43-["the loop" in sentence 6]
-45, CHAIN45-["the shorthand way to make loops when the number of iterations is known , as every for-loop could be written as a while-loop" in sentence 7]
-48, CHAIN48-["a while-loop" in sentence 7]
-49, CHAIN49-["The name for-loop" in sentence 8]
-50, CHAIN50-["the English word for , which is used as the keyword in most programming languages to introduce a for-loop" in sentence 8]
-51, CHAIN51-["the keyword in most programming languages" in sentence 8]
-52, CHAIN52-["most programming languages" in sentence 8]
-54, CHAIN54-["58" in sentence 9, "58" in sentence 9]
-55, CHAIN55-["60" in sentence 9, "60" in sentence 9]
-56, CHAIN56-["Heinz Rutishauser" in sentence 9]
-59, CHAIN59-["The term" in sentence 9, "it" in sentence 9, "the direct translation of the earlier German für , used in Superplan -LRB- 1949 -- 1951 -RRB- by Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
-60, CHAIN60-["English dates" in sentence 9]
-61, CHAIN61-["ALGOL 58" in sentence 9, "ALGOL 58" in sentence 9]
-62, CHAIN62-["the influential later ALGOL 60" in sentence 9]
-66, CHAIN66-["the earlier German für , used in Superplan -LRB- 1949 -- 1951 -RRB- by Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
-67, CHAIN67-["the earlier German für" in sentence 9]
-68, CHAIN68-["Superplan -LRB- 1949 -- 1951 -RRB-" in sentence 9]
-69, CHAIN69-["1949 -- 1951" in sentence 9]
-70, CHAIN70-["1951" in sentence 9]
-71, CHAIN71-["Heinz Rutishauser , who also was involved in defining ALGOL 58 and ALGOL 60" in sentence 9]
-72, CHAIN72-["ALGOL 58 and ALGOL 60" in sentence 9]
-74, CHAIN74-["ALGOL 60" in sentence 9]
-75, CHAIN75-["The loop body" in sentence 10]
-76, CHAIN76-["the given values of the loop variable , though this is more explicit in the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
-77, CHAIN77-["the loop variable , though this is more explicit in the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
-79, CHAIN79-["this" in sentence 10]
-80, CHAIN80-["the ALGOL version of the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
-81, CHAIN81-["the statement , in which a list of possible values and/or increments can be specified" in sentence 10]
-83, CHAIN83-["a list of possible values and/or increments" in sentence 10]
-84, CHAIN84-["possible values and/or increments" in sentence 10]
-85, CHAIN85-["possible values" in sentence 10]
-86, CHAIN86-["increments" in sentence 10]
-87, CHAIN87-["FORTRAN and PL/I" in sentence 11]
-88, CHAIN88-["the keyword DO" in sentence 11, "it" in sentence 11, "it" in sentence 11]
-90, CHAIN90-["a do-loop" in sentence 11]
-92, CHAIN92-["the for-loop described here" in sentence 11]
-93, CHAIN93-["the do-while loop" in sentence 11]
+1, CHAIN1-["Many learners" in sentence 1, "they" in sentence 1, "they" in sentence 1]
+2, CHAIN2-["disability labels" in sentence 1]
+3, CHAIN3-["visual learners" in sentence 1, "we" in sentence 1]
+5, CHAIN5-["it" in sentence 1]
+6, CHAIN6-["some way" in sentence 1]
+7, CHAIN7-["other words" in sentence 1]
+10, CHAIN10-["Three" in sentence 2]
+11, CHAIN11-["Three visual supports helpful for teaching and supporting literacy development are described here : picture books , graphic notes , and story kits ." in sentence 2, "visual supports" in sentence 36, "visual supports" in sentence 38]
+12, CHAIN12-["literacy development" in sentence 2]
+13, CHAIN13-["picture books , graphic notes , and story kits" in sentence 2]
+14, CHAIN14-["picture books" in sentence 2, "books" in sentence 4, "Picture books" in sentence 5, "Picture books" in sentence 7, "Picture books" in sentence 8, "books" in sentence 14, "the books" in sentence 17]
+15, CHAIN15-["graphic notes" in sentence 2]
+16, CHAIN16-["story kits" in sentence 2, "kits" in sentence 11, "story kits" in sentence 12, "Story kits" in sentence 15, "story kits" in sentence 17]
+17, CHAIN17-["Some of these ideas" in sentence 3, "they" in sentence 6, "they" in sentence 7]
+18, CHAIN18-["these ideas" in sentence 3, "ideas" in sentence 15]
+19, CHAIN19-["some students with disabilities" in sentence 3]
+20, CHAIN20-["disabilities" in sentence 3, "disabilities" in sentence 28]
+21, CHAIN21-["each" in sentence 3]
+22, CHAIN22-["literacy lessons that are appropriate" in sentence 3]
+23, CHAIN23-["learners in the inclusive classroom" in sentence 3]
+24, CHAIN24-["the inclusive classroom" in sentence 3, "the classroom" in sentence 38]
+25, CHAIN25-["Picture books ." in sentence 4]
+28, CHAIN28-["words and pictures" in sentence 5]
+29, CHAIN29-["a story" in sentence 5, "a story" in sentence 9, "a story" in sentence 29]
+30, CHAIN30-["these texts" in sentence 6]
+31, CHAIN31-["the pictures" in sentence 6, "pictures" in sentence 31]
+32, CHAIN32-["the text" in sentence 6, "the text" in sentence 6, "The text" in sentence 10, "itself" in sentence 10, "the text" in sentence 25, "the text" in sentence 26]
+36, CHAIN36-["the early elementary grades" in sentence 7]
+38, CHAIN38-["students in older grades including high school" in sentence 7]
+39, CHAIN39-["older grades including high school" in sentence 7]
+41, CHAIN41-["a primary text to introduce and examine an issue" in sentence 8]
+42, CHAIN42-["an issue" in sentence 8]
+43, CHAIN43-["a supplementary text for all or for just some learners needing extra support" in sentence 8]
+44, CHAIN44-["just some learners needing extra support" in sentence 8]
+45, CHAIN45-["Nashua River of New Hampshire" in sentence 9, "the river itself" in sentence 10, "the Nashua" in sentence 10]
+46, CHAIN46-["a middle school science teacher" in sentence 9]
+47, CHAIN47-["A River Ran Wild : An Environmental History -LRB- Cherry , 1992 -RRB- , a story" in sentence 9]
+48, CHAIN48-["Wild" in sentence 9]
+49, CHAIN49-["An Environmental History -LRB- Cherry , 1992 -RRB- , a story" in sentence 9]
+50, CHAIN50-["Cherry" in sentence 9]
+51, CHAIN51-["1992" in sentence 9]
+53, CHAIN53-["the Nashua River of New Hampshire" in sentence 9]
+54, CHAIN54-["the class about conservation and pollution" in sentence 9, "the class" in sentence 18]
+55, CHAIN55-["conservation and pollution" in sentence 9]
+57, CHAIN57-["a story of the river itself" in sentence 10]
+60, CHAIN60-["contrasting maps" in sentence 10]
+61, CHAIN61-["New England -LRB- in the 1500s and in the 1900s -RRB- and an author 's note" in sentence 10]
+62, CHAIN62-["New England -LRB- in the 1500s and in the 1900s -RRB-" in sentence 10]
+63, CHAIN63-["the 1500s" in sentence 10]
+64, CHAIN64-["the 1900s" in sentence 10]
+65, CHAIN65-["an author 's note" in sentence 10]
+66, CHAIN66-["an author 's" in sentence 10]
+67, CHAIN67-["the work of a committee who organized to clean up the Nashua" in sentence 10]
+68, CHAIN68-["a committee who organized to clean up the Nashua" in sentence 10]
+70, CHAIN70-["Story kits ." in sentence 11, "the story" in sentence 16, "the story" in sentence 20, "the story" in sentence 20]
+72, CHAIN72-["students with more significant disabilities" in sentence 12, "their" in sentence 15, "they" in sentence 16]
+73, CHAIN73-["more significant disabilities" in sentence 12]
+74, CHAIN74-["those who are blind or have low vision" in sentence 12, "those" in sentence 12]
+76, CHAIN76-["a more concrete way of relating to a piece of text" in sentence 12]
+77, CHAIN77-["a piece of text" in sentence 12]
+78, CHAIN78-["teachers" in sentence 12, "Teachers" in sentence 23, "teachers" in sentence 28, "his teachers" in sentence 34, "teachers" in sentence 38]
+79, CHAIN79-["the use of story kits" in sentence 12]
+81, CHAIN81-["a tool for improving literacy learning" in sentence 12]
+82, CHAIN82-["improving literacy learning" in sentence 12]
+83, CHAIN83-["A story kit" in sentence 13, "a story kit" in sentence 18]
+84, CHAIN84-["a bag or box of items related to a theme , unit , or particular story" in sentence 13]
+85, CHAIN85-["items related to a theme , unit , or particular story" in sentence 13]
+86, CHAIN86-["a theme , unit , or particular story" in sentence 13]
+87, CHAIN87-["a theme" in sentence 13]
+88, CHAIN88-["Laura Ingalls Wilder" in sentence 14]
+89, CHAIN89-["A kit for the `` Little House '' books by Laura Ingalls Wilder , for instance" in sentence 14, "The kit" in sentence 16, "The kit" in sentence 19, "It" in sentence 20, "the kit" in sentence 23]
+90, CHAIN90-["the `` Little House ''" in sentence 14]
+92, CHAIN92-["a tin cup , a rag doll , a girl 's bonnet , a small toy fiddle , and a piece of chalk" in sentence 14]
+93, CHAIN93-["a tin cup" in sentence 14]
+94, CHAIN94-["a rag doll" in sentence 14]
+95, CHAIN95-["a girl 's bonnet" in sentence 14]
+96, CHAIN96-["a girl 's" in sentence 14]
+97, CHAIN97-["a small toy fiddle" in sentence 14]
+98, CHAIN98-["a piece of chalk" in sentence 14]
+100, CHAIN100-["a reader generate ideas , retain information , and further their understanding of a particular idea or concept" in sentence 15]
+102, CHAIN102-["information , and further their understanding of a particular idea or concept" in sentence 15]
+103, CHAIN103-["their understanding of a particular idea or concept" in sentence 15]
+105, CHAIN105-["a particular idea or concept" in sentence 15]
+108, CHAIN108-["interest and support students as they discuss certain passages or chapters" in sentence 16, "them" in sentence 16, "they" in sentence 16]
+110, CHAIN110-["certain passages or chapters" in sentence 16]
+112, CHAIN112-["cues" in sentence 16]
+114, CHAIN114-["other activities related to the book -LRB- e.g. , writing a report" in sentence 16]
+115, CHAIN115-["the book -LRB- e.g." in sentence 16, "the book" in sentence 21, "the book" in sentence 22]
+116, CHAIN116-["e.g." in sentence 16]
+117, CHAIN117-["a report" in sentence 16]
+118, CHAIN118-["One" in sentence 17]
+120, CHAIN120-["One teacher used story kits to help Jerry Joe , a student with Down syndrome , understand and remember the books" in sentence 17, "the teacher" in sentence 18, "the teacher" in sentence 21, "the teacher" in sentence 22]
+122, CHAIN122-["Jerry Joe , a student with Down syndrome" in sentence 17, "Jerry Joe" in sentence 17, "a student with Down syndrome" in sentence 17, "Jerry Joe when he was doing a retelling of the story to his speech therapist" in sentence 20]
+124, CHAIN124-["Down syndrome" in sentence 17]
+126, CHAIN126-["Byars" in sentence 18, "he" in sentence 20, "his" in sentence 20]
+128, CHAIN128-["The Summer of the Swans -LRB- Byars , 1981 -RRB-" in sentence 18]
+129, CHAIN129-["the Swans -LRB- Byars , 1981 -RRB-" in sentence 18]
+130, CHAIN130-["Byars , 1981" in sentence 18]
+131, CHAIN131-["1981" in sentence 18]
+133, CHAIN133-["the class to participate in creating a story kit" in sentence 18]
+136, CHAIN136-["a watch , a small plastic boy and girl , some white feathers , a pair of sneakers , and a map of the Blue Ridge Mountains" in sentence 19]
+137, CHAIN137-["a watch" in sentence 19]
+138, CHAIN138-["a small plastic boy and girl" in sentence 19]
+139, CHAIN139-["some white feathers" in sentence 19]
+140, CHAIN140-["a pair of sneakers" in sentence 19]
+141, CHAIN141-["sneakers" in sentence 19]
+142, CHAIN142-["a map of the Blue Ridge Mountains" in sentence 19]
+143, CHAIN143-["the Blue Ridge Mountains" in sentence 19]
+147, CHAIN147-["a retelling of the story" in sentence 20]
+149, CHAIN149-["his speech therapist" in sentence 20]
+151, CHAIN151-["other students" in sentence 20, "they" in sentence 20, "students" in sentence 22, "students" in sentence 22, "students" in sentence 28, "Students" in sentence 30, "her students" in sentence 31, "they" in sentence 31, "students" in sentence 37]
+153, CHAIN153-["activities related to the story" in sentence 20]
+156, CHAIN156-["small groups of students" in sentence 21, "they" in sentence 21]
+157, CHAIN157-["next '' stories detailing some event or situation that they imagined happening to the characters beyond the ending of the book" in sentence 21, "these stories" in sentence 22]
+158, CHAIN158-["some event or situation" in sentence 21]
+160, CHAIN160-["the characters" in sentence 21]
+161, CHAIN161-["the ending of the book" in sentence 21]
+166, CHAIN166-["a table in front of the room" in sentence 22]
+167, CHAIN167-["front of the room" in sentence 22]
+168, CHAIN168-["the room" in sentence 22]
+170, CHAIN170-["details" in sentence 22]
+172, CHAIN172-["one" in sentence 23]
+173, CHAIN173-["two" in sentence 23]
+175, CHAIN175-["one or two copies of the book or story in the kit" in sentence 23]
+176, CHAIN176-["the book or story in the kit" in sentence 23]
+178, CHAIN178-["one" in sentence 24]
+179, CHAIN179-["At least one copy" in sentence 24]
+180, CHAIN180-["particular learners" in sentence 24, "learners" in sentence 28, "learners" in sentence 36, "learners" in sentence 38, "their" in sentence 38]
+181, CHAIN181-["disabilities -LRB- Downing , 2005 -RRB-" in sentence 24]
+182, CHAIN182-["Downing" in sentence 24]
+183, CHAIN183-["2005" in sentence 24]
+184, CHAIN184-["Some students" in sentence 25]
+185, CHAIN185-["a tactile book with added textures or objects" in sentence 25]
+186, CHAIN186-["added textures or objects" in sentence 25]
+187, CHAIN187-["others" in sentence 25]
+188, CHAIN188-["large-print versions of the text" in sentence 25]
+190, CHAIN190-["others" in sentence 26]
+191, CHAIN191-["additional teacher or student-generated graphics" in sentence 26]
+193, CHAIN193-["few or no illustrations" in sentence 26]
+194, CHAIN194-["Visual notes" in sentence 27, "visual notes" in sentence 30, "notes" in sentence 31, "the notes" in sentence 31, "visual notes" in sentence 32]
+195, CHAIN195-["another strategy" in sentence 28, "this strategy" in sentence 29]
+198, CHAIN198-["the literacy learning of students" in sentence 28]
+202, CHAIN202-["a way to demonstrate that there are many different ways to represent information while giving struggling readers a way to share their understanding of a text , tell a story , or organize information" in sentence 29]
+203, CHAIN203-["many different ways to represent information while giving struggling readers a way to share their understanding of a text , tell a story , or organize information" in sentence 29, "ways" in sentence 30]
+204, CHAIN204-["readers a way" in sentence 29, "their" in sentence 29]
+205, CHAIN205-["a way" in sentence 29]
+206, CHAIN206-["their understanding of a text" in sentence 29]
+208, CHAIN208-["a text" in sentence 29]
+212, CHAIN212-["a variety of ways" in sentence 30]
+214, CHAIN214-["One" in sentence 31]
+215, CHAIN215-["One teacher" in sentence 31, "her" in sentence 31]
+220, CHAIN220-["`` pictures , diagrams , doodles , patterns , or charts '' in the margins or in the actual body of the notes" in sentence 31]
+222, CHAIN222-["diagrams" in sentence 31]
+223, CHAIN223-["doodles" in sentence 31]
+224, CHAIN224-["patterns" in sentence 31]
+225, CHAIN225-["charts" in sentence 31]
+226, CHAIN226-["the margins" in sentence 31]
+227, CHAIN227-["the actual body of the notes" in sentence 31]
+229, CHAIN229-["points" in sentence 31]
+230, CHAIN230-["an idea" in sentence 31]
+231, CHAIN231-["the content" in sentence 31]
+232, CHAIN232-["Another teacher" in sentence 32]
+233, CHAIN233-["a student" in sentence 32, "the student" in sentence 33]
+234, CHAIN234-["physical disabilities and limited mobility" in sentence 32]
+235, CHAIN235-["physical disabilities" in sentence 32]
+237, CHAIN237-["the computer" in sentence 32]
+238, CHAIN238-["Mice and Men -LRB- Steinback , 1937 -RRB-" in sentence 33]
+239, CHAIN239-["Steinback , 1937" in sentence 33, "He" in sentence 34, "he" in sentence 34, "his" in sentence 34]
+240, CHAIN240-["1937" in sentence 33]
+242, CHAIN242-["the web for images of men working on ranches , a gun , rabbits in a hutch , and a farm" in sentence 33]
+243, CHAIN243-["images of men working on ranches , a gun , rabbits in a hutch , and a farm" in sentence 33, "these images" in sentence 34]
+244, CHAIN244-["men working on ranches , a gun , rabbits in a hutch , and a farm" in sentence 33]
+245, CHAIN245-["ranches , a gun , rabbits in a hutch , and a farm" in sentence 33]
+246, CHAIN246-["ranches" in sentence 33]
+247, CHAIN247-["a gun" in sentence 33]
+248, CHAIN248-["rabbits in a hutch" in sentence 33]
+249, CHAIN249-["a hutch" in sentence 33]
+250, CHAIN250-["a farm" in sentence 33]
+252, CHAIN252-["these images and some simple text" in sentence 34]
+254, CHAIN254-["some simple text" in sentence 34]
+255, CHAIN255-["a PowerPoint presentation" in sentence 34]
+257, CHAIN257-["classmates" in sentence 34]
+258, CHAIN258-["questions posed by his teachers" in sentence 34]
+261, CHAIN261-["Conclusions ." in sentence 35]
+262, CHAIN262-["one" in sentence 36]
+263, CHAIN263-["greater use of visual supports" in sentence 36, "the use of visual supports" in sentence 38]
+265, CHAIN265-["just one way" in sentence 36]
+266, CHAIN266-["effective teachers" in sentence 36]
+267, CHAIN267-["the needs of a wider range of learners" in sentence 36]
+268, CHAIN268-["a wider range of learners" in sentence 36, "a wider range of learners" in sentence 38]
+270, CHAIN270-["Each of these strategies" in sentence 37, "they" in sentence 37]
+271, CHAIN271-["these strategies" in sentence 37]
+273, CHAIN273-["disabilities in inclusive classrooms" in sentence 37]
+274, CHAIN274-["inclusive classrooms" in sentence 37]
+276, CHAIN276-["the most" in sentence 37]
+277, CHAIN277-["those learners who can not learn effectively in classrooms using traditional tools and strategies" in sentence 37]
+278, CHAIN278-["classrooms using traditional tools and strategies" in sentence 37]
+279, CHAIN279-["traditional tools and strategies" in sentence 37]
+280, CHAIN280-["the strategies used in the classroom and specifically by expanding the use of visual supports in literacy instruction" in sentence 38]
+284, CHAIN284-["literacy instruction" in sentence 38]
+288, CHAIN288-["opportunities to hone their skills as writers and readers" in sentence 38]
+289, CHAIN289-["their skills" in sentence 38]
+291, CHAIN291-["writers and readers" in sentence 38]
+292, CHAIN292-["This article" in sentence 39, "It" in sentence 40]
+293, CHAIN293-["the website of Dr. Paula Kluth" in sentence 39]
+294, CHAIN294-["Dr. Paula Kluth" in sentence 39]
+296, CHAIN296-["many others on inclusive schooling , differentiated instruction , and literacy" in sentence 40]
+297, CHAIN297-["www.PaulaKluth.com" in sentence 40, "her" in sentence 41]
+298, CHAIN298-["her Tip of the Day" in sentence 41]
+300, CHAIN300-["the Day" in sentence 41]
+301, CHAIN301-["dozens of free articles" in sentence 41]
+302, CHAIN302-["more" in sentence 41]
+303, CHAIN303-["diverse learners" in sentence 41]
+304, CHAIN304-["K-12 classrooms" in sentence 41]
